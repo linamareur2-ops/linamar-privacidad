@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oficina Linamar 3D</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Montserrat:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f4f0e6;--panel:#fffdf7;--fg:#2f3328;--muted:#6b705f;--line:#e2dccb;
+  --salvia:#7a8c68;--salvia-o:#546346;--oro:#c4a052;--rosa:#e8c4c0;--ok:#5f8a4e;--prep:#b9b2a0;
+  --scene:#efe9dc;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1b1e18;--panel:#24281f;--fg:#ece8dc;--muted:#a9ab9c;--line:#3a4033;--salvia:#9db08a;--salvia-o:#b7c8a3;--oro:#d8b86c;--rosa:#c99f9b;--ok:#8fbf7a;--prep:#6f6b60;--scene:#20241c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1e18;--panel:#24281f;--fg:#ece8dc;--muted:#a9ab9c;--line:#3a4033;--salvia:#9db08a;--salvia-o:#b7c8a3;--oro:#d8b86c;--rosa:#c99f9b;--ok:#8fbf7a;--prep:#6f6b60;--scene:#20241c;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:Montserrat,system-ui,sans-serif;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1280px;margin:0 auto;padding-block:20px 32px;display:grid;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px}
+h1{font-family:"Playfair Display",Georgia,serif;font-weight:600;font-size:clamp(1.5rem,3vw,2.2rem);margin:0;text-wrap:balance}
+h1 em{color:var(--salvia-o);font-style:italic;font-weight:500}
+.sub{color:var(--muted);font-size:.85rem;margin-top:4px}
+.reloj{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.85rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.kpi b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums}
+.kpi span{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:14px}
+@media (max-width:900px){.main{grid-template-columns:minmax(0,1fr)}}
+.escena{position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--scene);height:min(72vh,640px);min-height:380px}
+.escena canvas{display:block;width:100%;height:100%;cursor:grab}
+.etq{position:absolute;left:0;top:0;pointer-events:none;transform:translate(-50%,-100%);white-space:nowrap;font-size:11px;font-weight:600;padding:3px 7px;border-radius:999px;background:var(--panel);border:1px solid var(--line);color:var(--fg);box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.etq.prep{color:var(--muted);font-weight:500}
+.etq.sel{background:var(--salvia-o);color:var(--panel);border-color:var(--salvia-o)}
+.burbuja{position:absolute;left:0;top:0;pointer-events:none;transform:translate(-50%,-100%);max-width:180px;white-space:normal;text-align:center;font-size:11px;line-height:1.3;padding:5px 8px;border-radius:10px;background:var(--oro);color:#2a2418;opacity:0;transition:opacity .4s}
+.rotulo{position:absolute;left:0;top:0;pointer-events:none;transform:translate(-50%,-50%);font-family:"Playfair Display",Georgia,serif;font-size:13px;color:var(--salvia-o);font-style:italic;opacity:.9;white-space:nowrap}
+.leyenda{position:absolute;left:12px;bottom:12px;display:flex;flex-wrap:wrap;gap:8px;font-size:11px;background:color-mix(in srgb,var(--panel) 85%,transparent);border:1px solid var(--line);padding:6px 10px;border-radius:12px}
+.leyenda i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.ayuda{position:absolute;right:12px;top:12px;font-size:11px;color:var(--muted);background:color-mix(in srgb,var(--panel) 85%,transparent);border:1px solid var(--line);padding:5px 9px;border-radius:10px}
+aside{display:grid;gap:14px;align-content:start;min-width:0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 16px;min-width:0}
+.panel h2{font-family:"Playfair Display",Georgia,serif;font-size:1.05rem;margin:0 0 8px}
+.ficha .rol{color:var(--muted);font-size:.85rem}
+.ficha .estado{display:inline-block;margin:8px 0;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;border:1px solid var(--line)}
+.ficha .estado.on{background:var(--ok);color:var(--panel);border-color:var(--ok)}
+.ficha p{font-size:.85rem;line-height:1.5;margin:6px 0 0}
+.log{list-style:none;margin:0;padding:0;display:grid;gap:7px;max-height:230px;overflow:auto;font-size:.8rem}
+.log time{color:var(--muted);font-variant-numeric:tabular-nums;margin-right:6px}
+.log b{color:var(--salvia-o)}
+.prox{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:.8rem}
+.prox li{display:flex;gap:8px;align-items:center;min-width:0}
+.prox .h{font-variant-numeric:tabular-nums;color:var(--muted);width:42px;flex:none}
+.chip{font-size:.65rem;padding:2px 6px;border-radius:6px;flex:none;color:#fff}
+.chip.fb{background:#4a6fa5}.chip.ig{background:#b77a8c}
+.prox .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nota{font-size:.75rem;color:var(--muted);line-height:1.5}
+.deps{display:flex;flex-wrap:wrap;gap:6px}
+.deps button{font:inherit;font-size:.72rem;border:1px solid var(--line);background:transparent;color:var(--fg);padding:4px 8px;border-radius:999px;cursor:pointer}
+.deps button:hover{border-color:var(--salvia)}
+</style>
+
+</head><body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Oficina <em>Linamar</em> Studio</h1>
+      <div class="sub">43 puestos · 12 departamentos · Linamar by Mary CR</div>
+    </div>
+    <div class="reloj" id="reloj"></div>
+  </header>
+
+  <div class="panel" id="vivo" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span id="punto" style="width:10px;height:10px;border-radius:50%;background:var(--prep);display:inline-block"></span><b id="vivo-t">Conectando con el equipo…</b><span class="nota" id="vivo-h"></span></div>
+  <section class="kpis" id="kpis"></section>
+
+  <section class="main">
+    <div class="escena" id="escena">
+      <div class="ayuda">Arrastra para girar · rueda para acercar · toca a alguien</div>
+      <div class="leyenda"><span><i style="background:var(--ok)"></i>Trabajando</span><span><i style="background:var(--prep)"></i>En preparación</span></div>
+    </div>
+    <aside>
+      <div class="panel ficha" id="ficha">
+        <h2>Toca a alguien del equipo</h2>
+        <p class="nota">Verás su puesto, si ya está trabajando de verdad y en qué.</p>
+      </div>
+      <div class="panel"><h2>Departamentos</h2><div class="deps" id="deps"></div></div>
+      <div class="panel"><h2>Lo que está pasando</h2><ul class="log" id="log"></ul></div>
+      <div class="panel"><h2>Próximos posts</h2><ul class="prox" id="prox"></ul></div>
+      <p class="nota">En vivo: el equipo actualiza esta oficina al empezar y al terminar cada turno de trabajo (cada hora, el estudio de mercado de los sábados y los informes). Los movimientos de cada agente son ilustrativos; lo que hacen y publican es real.</p>
+    </aside>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const DEP=[
+ {id:"dir",nombre:"Dirección",col:"#546346",gente:[
+  ["Daniela","Directora","on","Prepara cada domingo las propuestas de mejora para Lina (aplicar 1 / aplicar todo)."],
+  ["Sofía","Subdirectora","prep","Coordinará la agenda semanal de todos los departamentos."],
+  ["Lucía","Coordinadora de proyectos","prep","Llevará YouTube (enero 2027) y la academia."],
+  ["Valeria","Asistente de dirección","prep","Preparará las reuniones del sábado."]]},
+ {id:"mer",nombre:"Estudio de mercado",col:"#b5835a",gente:[
+  ["Mercedes","Jefa de estudio","on","Recorre Amazon ES y EE. UU.: más vendidos, novedades, del momento y deseados."],
+  ["Inés","Investigadora España","on","Busca hallazgos curiosos y bonitos en amazon.es."],
+  ["Grace","Investigadora EE. UU.","on","Busca hallazgos en amazon.com."],
+  ["Tania","Tendencias y temporada","on","Navidad, rebajas, San Valentín… según la fecha."]]},
+ {id:"tes",nombre:"Tienda España",col:"#c4a052",gente:[
+  ["Elena","Encargada tienda ES","prep","Listas de ideas en amazon.es/shop/marycr_4 (necesita tu Chrome)."],
+  ["Rosa","Ayudante","prep","Elegirá productos para cada lista."],
+  ["Carmen","Ayudante","prep","Escribirá títulos y descripciones."]]},
+ {id:"tus",nombre:"Tienda EE. UU.",col:"#d4b06a",gente:[
+  ["Emily","Encargada tienda EE. UU.","prep","Listas en amazon.com/shop/marycr_4."],
+  ["Ashley","Ayudante","prep","Productos de moda y regalos."],
+  ["Megan","Ayudante","prep","Textos en inglés."]]},
+ {id:"mkt",nombre:"Marketing",col:"#7a8c68",gente:[
+  ["Marta","Jefa de marketing","on","Decide el gancho y el estilo de cada post."],
+  ["Paloma","Redactora español","on","Escribe los 10 posts diarios en español."],
+  ["Hannah","Redactora inglés","on","Escribe los 10 posts diarios en inglés."],
+  ["Julia","Revisora de reglas","on","Vigila #publicidad #ad, aviso de afiliada y nada de precios."]]},
+ {id:"dis",nombre:"Diseño",col:"#9a7b9c",gente:[
+  ["Diana","Directora de arte","on","Elige uno de los 12 estilos para cada imagen."],
+  ["Alba","Diseñadora","on","Monta cada post con tu paleta salvia, crema y dorado."],
+  ["Noa","Fotografía y recortes","on","Quita fondos y prepara las fotos de producto."],
+  ["Celia","Diseñadora Canva","prep","Usará tu Canva Negocios."],
+  ["Iris","Ilustradora ChatGPT","prep","Usará tu ChatGPT Pro para imágenes."]]},
+ {id:"pub",nombre:"Publicación FB · IG",col:"#4a6fa5",gente:[
+  ["Paula","Jefa de publicación","on","40 posts del lunes aprobados y en cola."],
+  ["Lola","Facebook","on","Publica en la página Linamar by Mary CR."],
+  ["Ivy","Instagram","on","Publica en @linamarbymarycr 10 min después."]]},
+ {id:"pin",nombre:"Pinterest",col:"#b4555d",gente:[
+  ["Pilar","Estratega de búsquedas","prep","Esperando la aprobación de la API de Pinterest."],
+  ["Nerea","Pines España","prep","20 pines al día en limcrp."],
+  ["Kate","Pines EE. UU.","prep","20 pines al día en la cuenta de EE. UU."]]},
+ {id:"met",nombre:"Métricas",col:"#6d7f8c",gente:[
+  ["Mía","Métricas Facebook","on","Recoge me gusta, comentarios y alcance cada día."],
+  ["Irene","Métricas Instagram","on","Recoge me gusta, guardados y alcance."],
+  ["Olivia","Métricas Pinterest","prep","Empieza cuando llegue la API."],
+  ["Ana","Informe de Amazon","on","Lee el CSV que mandas por Telegram (solo con código, sin IA)."]]},
+ {id:"cc",nombre:"Creator Connections",col:"#c07a4f",gente:[
+  ["Chloe","Buscadora de campañas","prep","Buscará campañas en Amazon EE. UU."],
+  ["Ava","Comisiones y requisitos","prep","Comparará qué campaña conviene."],
+  ["Zoe","Guiones de vídeo","prep","Te preparará el guion de cada vídeo."]]},
+ {id:"sec",nombre:"Secretaría",col:"#9aa88a",gente:[
+  ["Sara","Secretaria","on","Te manda la hoja numerada y el resumen por Telegram."],
+  ["Nora","Atención Telegram","on","Entiende: ver 3 · quitar 5 · cambiar 7 · aplicar."],
+  ["Vera","Archivo e historial","on","Guarda todo lo publicado."],
+  ["Gala","Asistente ChatGPT de guardia","prep","Te ayudará si Claude o Gemini se quedan sin uso."]]},
+ {id:"cal",nombre:"Calidad",col:"#8a6a45",gente:[
+  ["Clara","Cumplimiento Amazon","on","Reglas de Creator University y Afiliados."],
+  ["Eva","Enlaces y etiquetas","on","Cada red con su ID: marycrface-21, linamariacaic-21/-20."],
+  ["Laura","Control de calidad","prep","Revisará cada imagen antes de publicar."]]}
+];
+const POSTS=[["08:30","Organizadores de cajón"],["09:30","Rasqueta para mampara"],["10:30","Aspiradora de mano"],["11:30","Ganchos ahorra espacio"],["12:30","Escurreplatos plegable"],["13:30","Alfombra de diatomita"],["14:15","BaubleBar earrings"],["15:15","Stanley IceFlow"],["15:45","Cajas para zapatos"],["16:15","Sheet set"],["17:15","medicube Jelly Cream"],["17:45","Organizador bajo fregadero"],["18:15","Owala FreeSip"],["19:15","bella slim toaster"],["19:45","Funda nórdica beige"],["20:15","PAVOI tennis bracelet"],["21:15","Meat thermometer"],["21:45","Protector de colchón"],["22:15","EVERSWE tights"],["23:15","Kendra Scott heart"]];
+const EVENTOS=[
+ ["Sara","envió la hoja del lunes a Telegram"],["Nora","recibió tu ✅ Aprobar: 40 posts"],["Paula","dejó los 40 posts en cola para el lunes"],
+ ["Mercedes","terminó de leer Más vendidos de cocina"],["Grace","encontró un hallazgo en amazon.com"],["Tania","buscó «regalos navidad mujer»"],
+ ["Inés","puntuó 30 candidatos de amazon.es"],["Alba","montó el post de la funda nórdica"],["Hannah","escribió «A heart that says it all»"],
+ ["Julia","revisó: sin precios y con #publicidad #ad"],["Eva","comprobó la etiqueta marycrface-21"],["Mía","preparó la recogida de estadísticas"],
+ ["Daniela","preparó las propuestas del domingo"],["Noa","recortó el fondo de la foto de la rasqueta"],["Ivy","programó el espejo en Instagram"]];
+
+// ---------- UI
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const todos=DEP.flatMap(d=>d.gente.map(g=>({dep:d,nombre:g[0],rol:g[1],on:g[2]==="on",tarea:g[3]})));
+const activos=todos.filter(p=>p.on).length;
+document.getElementById("kpis").innerHTML=[
+ [todos.length,"Puestos"],[activos,"Trabajando"],[todos.length-activos,"En preparación"],[40,"Posts lunes (FB+IG)"],["⏳","Pinterest API"]
+].map(k=>`<div class="kpi"><b>${k[0]}</b><span>${k[1]}</span></div>`).join("");
+void POSTS.slice(0,10).map((p,i)=>`<li><span class="h">${p[0]}</span><span class="chip ${i%2?"ig":"fb"}">${i%2?"IG":"FB"}</span><span class="n">${p[1]}</span></li>`).join("");
+const log=document.getElementById("log");
+const hhmm=()=>new Date().toLocaleTimeString("es-ES",{hour:"2-digit",minute:"2-digit"});
+function anota(n,t){const li=document.createElement("li");li.innerHTML=`<time>${hhmm()}</time><b>${n}</b> ${t}`;log.prepend(li);while(log.children.length>25)log.lastChild.remove();}
+
+setInterval(()=>{document.getElementById("reloj").textContent=new Date().toLocaleString("es-ES",{weekday:"long",hour:"2-digit",minute:"2-digit",second:"2-digit"})},1000);
+
+
+// ---------- Datos en vivo
+const NOMBRE_RED={facebook:"FB",instagram:"IG",pinterest_es:"Pin ES",pinterest_us:"Pin US"};
+let vivoIds=[];
+async function vivo(){
+  try{
+    const r=await fetch("estado.json?t="+Date.now());if(!r.ok)throw 0;const e=await r.json();
+    vivoIds=e.trabajando||[];
+    document.getElementById("punto").style.background=vivoIds.length?"var(--ok)":"var(--oro)";
+    document.getElementById("vivo-t").textContent=vivoIds.length?("Trabajando ahora: "+(e.accion||"")):("En pausa hasta el próximo turno · "+(e.accion||""));
+    document.getElementById("vivo-h").textContent="Última actualización del equipo: "+e.actualizado;
+    const pub=Object.values(e.publicados_hoy||{}).reduce((a,b)=>a+b,0);
+    document.getElementById("kpis").innerHTML=[[todos.length,"Puestos"],[activos,"Con trabajo real"],[pub,"Publicados hoy"],[e.en_cola,"En cola"],[e.pendientes_aprobar,"Por aprobar"],[e.errores_hoy,"Errores hoy"]].map(k=>`<div class="kpi"><b>${k[0]}</b><span>${k[1]}</span></div>`).join("");
+    if(e.proximos&&e.proximos.length)document.getElementById("prox").innerHTML=e.proximos.map(p=>`<li><span class="h">${p.hora}</span><span class="chip ${p.red==="instagram"?"ig":"fb"}">${NOMBRE_RED[p.red]||p.red}</span><span class="n">${p.nombre}${p.estado==="pendiente"?" · por aprobar":""}</span></li>`).join("");
+    else document.getElementById("prox").innerHTML='<li class="nota">No hay posts en cola ahora mismo.</li>';
+    (e.ultimos||[]).slice().reverse().forEach(u=>{const k=u.hora+u.red+u.nombre;if(!vistos.has(k)){vistos.add(k);anota(u.red==="instagram"?"Ivy":"Lola",`publicó en ${NOMBRE_RED[u.red]||u.red}: ${u.nombre}`);}});
+    if(e.accion&&e.accion!==ultimaAccion){ultimaAccion=e.accion;anota(vivoIds.includes("mer")?"Mercedes":"Sara",e.accion);}
+    personas.forEach(o=>{const on=vivoIds.includes(o.p.dep.id);o.vivo=on;});
+  }catch(err){document.getElementById("vivo-t").textContent="Sin conexión con el estado del equipo (se reintenta cada minuto)";}
+}
+const vistos=new Set();let ultimaAccion="";
+vivo();setInterval(vivo,60000);
+
+// ---------- 3D
+const cont=document.getElementById("escena");
+const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+cont.prepend(renderer.domElement);
+const scene=new THREE.Scene();
+const cam=new THREE.OrthographicCamera(-1,1,1,-1,0.1,400);
+cam.position.set(40,42,40);cam.lookAt(0,0,0);
+const ctr=new THREE.OrbitControls(cam,renderer.domElement);
+ctr.enableDamping=true;ctr.minZoom=.6;ctr.maxZoom=3.2;ctr.maxPolarAngle=Math.PI/2.3;ctr.minPolarAngle=.5;ctr.enablePan=true;ctr.autoRotate=true;ctr.autoRotateSpeed=.35;
+renderer.domElement.addEventListener("pointerdown",()=>ctr.autoRotate=false);
+scene.add(new THREE.HemisphereLight(0xfff8ec,0x8a8270,.9));
+const sol=new THREE.DirectionalLight(0xfff1d6,.75);sol.position.set(30,50,18);sol.castShadow=true;sol.shadow.mapSize.set(2048,2048);
+Object.assign(sol.shadow.camera,{left:-45,right:45,top:45,bottom:-45});scene.add(sol);
+
+const M=c=>new THREE.MeshStandardMaterial({color:c,roughness:.8});
+const box=(w,h,d,c,x,y,z,sombra=true)=>{const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),M(c));m.position.set(x,y,z);m.castShadow=sombra;m.receiveShadow=true;scene.add(m);return m;};
+
+const COLS=4,ROOM=13,GAP=1.2;
+const ancho=COLS*ROOM+(COLS-1)*GAP, fondo=3*ROOM+2*GAP;
+box(ancho+4,.6,fondo+4,"#d9d1bf",0,-.3,0,false);
+const labels=[],personas=[],pantallas=[];
+const pieles=["#e3b48f","#c98f63","#f0c9a5","#d9a27a","#8d5a3b","#eab98f"],pelos=["#3b2a1e","#1f1a17","#6b4226","#2a2320","#a8743f","#4a3426","#d9b27a"];
+const capa=document.createElement("div");capa.style.cssText="position:absolute;inset:0;pointer-events:none";cont.appendChild(capa);
+function etiqueta(cls,txt){const e=document.createElement("div");e.className=cls;e.textContent=txt;capa.appendChild(e);return e;}
+
+DEP.forEach((d,i)=>{
+  const cx=-ancho/2+ROOM/2+(i%COLS)*(ROOM+GAP), cz=-fondo/2+ROOM/2+Math.floor(i/COLS)*(ROOM+GAP);
+  box(ROOM,.12,ROOM,"#f6f1e5",cx,.06,cz,false);
+  const alf=box(ROOM*.62,.03,ROOM*.5,d.col,cx,.14,cz+.6,false);alf.material.transparent=true;alf.material.opacity=.28;
+  box(ROOM,2.6,.25,"#ece4d3",cx,1.3,cz-ROOM/2);box(.25,2.6,ROOM,"#e6ddca",cx-ROOM/2,1.3,cz);
+  box(ROOM*.55,.08,.05,d.col,cx,2.35,cz-ROOM/2+.15,false);
+  box(1.1,.9,.6,"#a8b897",cx+ROOM/2-1.2,.45,cz-ROOM/2+1);const pl=new THREE.Mesh(new THREE.SphereGeometry(.75,12,10),M("#6f8a5a"));pl.position.set(cx+ROOM/2-1.2,1.45,cz-ROOM/2+1);pl.castShadow=true;scene.add(pl);
+  const rot=etiqueta("rotulo",d.nombre);labels.push({el:rot,pos:new THREE.Vector3(cx,3.2,cz-ROOM/2+.3)});
+  const n=d.gente.length;
+  d.gente.forEach((g,j)=>{
+    const p=todos.find(t=>t.nombre===g[0]);
+    const fila=Math.floor(j/3), colN=j%3, porFila=Math.min(3,n-fila*3);
+    const x=cx+(colN-(porFila-1)/2)*3.8, z=cz-1.4+fila*4.4;
+    box(3,.12,1.5,"#b08c63",x,1.1,z);box(.12,1.05,1.3,"#8f7050",x-1.35,.55,z);box(.12,1.05,1.3,"#8f7050",x+1.35,.55,z);
+    box(1.5,.95,.08,"#2b2f26",x,1.75,z-.45);
+    const scr=new THREE.Mesh(new THREE.PlaneGeometry(1.36,.8),new THREE.MeshBasicMaterial({color:p.on?d.col:"#5c5a52"}));scr.position.set(x,1.75,z-.4);scene.add(scr);pantallas.push({m:scr,on:p.on,base:new THREE.Color(p.on?d.col:"#5c5a52")});
+    box(.9,.08,.35,"#e8e2d4",x,1.2,z+.15,false);
+    box(.9,.12,.9,"#6b6458",x,.65,z+1.3);
+    const cuerpo=new THREE.Group();
+    const ropa=new THREE.Mesh(new THREE.CylinderGeometry(.42,.5,1.05,14),M(p.on?d.col:"#a39d8f"));ropa.position.y=1.25;ropa.castShadow=true;
+    const cab=new THREE.Mesh(new THREE.SphereGeometry(.36,16,14),M(pieles[(i+j)%pieles.length]));cab.position.y=2.05;cab.castShadow=true;
+    const pelo=new THREE.Mesh(new THREE.SphereGeometry(.39,16,14,0,Math.PI*2,0,Math.PI/1.8),M(pelos[(i*3+j)%pelos.length]));pelo.position.y=2.1;pelo.rotation.x=-.25;
+    cuerpo.add(ropa,cab,pelo);
+    if((i+j)%2===0){const melena=new THREE.Mesh(new THREE.CylinderGeometry(.34,.4,.75,12,1,true,Math.PI*.15,Math.PI*1.7),M(pelos[(i*3+j)%pelos.length]));melena.position.set(0,1.75,.05);melena.material.side=THREE.DoubleSide;cuerpo.add(melena);}
+    cuerpo.position.set(x,0,z+1.35);cuerpo.rotation.y=Math.PI;scene.add(cuerpo);
+    cuerpo.traverse(o=>o.userData.persona=p);
+    const et=etiqueta("etq"+(p.on?"":" prep"),(p.on?"● ":"○ ")+p.nombre);
+    const bur=etiqueta("burbuja","");
+    const obj={p,cuerpo,et,bur,casa:new THREE.Vector3(x,0,z+1.35),fase:Math.random()*6,paseo:null};
+    p.obj=obj;personas.push(obj);labels.push({el:et,pos:null,obj});
+  });
+});
+
+const depsEl=document.getElementById("deps");
+DEP.forEach(d=>{const b=document.createElement("button");const on=d.gente.filter(g=>g[2]==="on").length;b.textContent=`${d.nombre} ${on}/${d.gente.length}`;b.onclick=()=>{const p=todos.find(t=>t.dep===d);enfoca(p.obj.casa);ficha(p);};depsEl.appendChild(b);});
+
+let sel=null;
+function ficha(p){
+  if(sel)sel.obj.et.classList.remove("sel");sel=p;p.obj.et.classList.add("sel");
+  document.getElementById("ficha").innerHTML=`<h2>${p.nombre}</h2><div class="rol">${p.rol} · ${p.dep.nombre}</div>
+  <span class="estado ${p.on?"on":""}">${p.on?"Trabajando":"En preparación"}</span><p>${p.tarea}</p>`;
+}
+function enfoca(v){ctr.autoRotate=false;const d=v.clone().sub(ctr.target);ctr.target.add(d);cam.position.add(d);cam.zoom=Math.max(cam.zoom,1.8);cam.updateProjectionMatrix();}
+const ray=new THREE.Raycaster(),ptr=new THREE.Vector2();let down=null;
+renderer.domElement.addEventListener("pointerdown",e=>down=[e.clientX,e.clientY]);
+renderer.domElement.addEventListener("pointerup",e=>{
+  if(!down||Math.hypot(e.clientX-down[0],e.clientY-down[1])>6)return;
+  const r=renderer.domElement.getBoundingClientRect();ptr.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);
+  ray.setFromCamera(ptr,cam);const hit=ray.intersectObjects(scene.children,true).find(h=>h.object.userData.persona);
+  if(hit)ficha(hit.object.userData.persona);
+});
+
+function tam(){const w=cont.clientWidth,h=cont.clientHeight,a=w/h,v=34;cam.left=-v*a/2;cam.right=v*a/2;cam.top=v/2;cam.bottom=-v/2;cam.updateProjectionMatrix();renderer.setSize(w,h,false);}
+new ResizeObserver(tam).observe(cont);tam();
+
+// Vida: agentes activos teclean, a veces van a la mesa de otra compañera y vuelven; bocadillos con tareas reales.
+const activosObj=personas.filter(o=>o.p.on);
+function paseo(){
+  const a=activosObj[Math.floor(Math.random()*activosObj.length)],b=personas[Math.floor(Math.random()*personas.length)];
+  if(a===b||a.paseo)return;a.paseo={dest:b.casa.clone().add(new THREE.Vector3(1.2,0,.6)),t:0,vuelta:false};
+  dice(a,"Llevo esto a "+b.p.nombre);anota(a.p.nombre,"le pasa trabajo a "+b.p.nombre);
+}
+function dice(o,t){o.bur.textContent=t;o.bur.style.opacity=1;clearTimeout(o.tb);o.tb=setTimeout(()=>o.bur.style.opacity=0,3200);}
+setInterval(()=>{const o=activosObj[Math.floor(Math.random()*activosObj.length)];dice(o,o.p.tarea.split(/[.:]/)[0]);},2300);
+setInterval(paseo,5200);
+
+
+const v3=new THREE.Vector3(),reloj=new THREE.Clock();
+function bucle(){
+  const t=reloj.getElapsedTime(),dt=Math.min(reloj.getDelta(),.05);
+  personas.forEach(o=>{
+    const c=o.cuerpo;
+    if(o.paseo){const P=o.paseo,obj=P.vuelta?o.casa:P.dest;const d=obj.clone().sub(c.position);d.y=0;const L=d.length();
+      if(L<.15){if(P.vuelta){o.paseo=null;c.rotation.y=Math.PI;}else{P.t+=1;if(P.t>40)P.vuelta=true;}}
+      else{d.normalize();c.position.addScaledVector(d,Math.min(L,.09));c.rotation.y=Math.atan2(d.x,d.z);c.position.y=Math.abs(Math.sin(t*10))*.12;}}
+    else if(o.p.on){const v=o.vivo?16:6;c.position.y=Math.abs(Math.sin(t*v+o.fase))*(o.vivo?.08:.04);c.children[1].rotation.x=Math.sin(t*2+o.fase)*.08;}
+    else{c.position.y=0;c.children[1].rotation.x=.25;}
+  });
+  pantallas.forEach((s,k)=>{if(s.on){const f=.75+.25*Math.sin(t*(vivoIds.length?9:3)+k);s.m.material.color.copy(s.base).multiplyScalar(f);}});
+  ctr.update();renderer.render(scene,cam);
+  const r=cont.getBoundingClientRect();
+  labels.forEach(l=>{
+    const pos=l.obj?v3.copy(l.obj.cuerpo.position).setY(2.75):v3.copy(l.pos);
+    pos.project(cam);const x=(pos.x*.5+.5)*r.width,y=(-pos.y*.5+.5)*r.height;
+    const fuera=pos.z>1||x<-60||x>r.width+60||y<-30||y>r.height+30;
+    l.el.style.display=fuera?"none":"";l.el.style.transform=`translate(${x}px,${y}px) translate(-50%,-100%)`;
+    if(l.obj){l.obj.bur.style.transform=`translate(${x}px,${y-22}px) translate(-50%,-100%)`;}
+  });
+  requestAnimationFrame(bucle);
+}
+bucle();
+</script>
+
+</body></html>
