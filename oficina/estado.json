@@ -1,17 +1,12 @@
 {
  "actualizado": "2026-11-23 08:35",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 1,
+  "facebook": 2,
   "instagram": 1
  },
- "en_cola": 40,
+ "en_cola": 39,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -102,6 +97,11 @@
    "hora": "08:16",
    "red": "instagram",
    "nombre": "PRETTYGARDEN Women's 2 Piece Set"
+  },
+  {
+   "hora": "08:30",
+   "red": "facebook",
+   "nombre": "Cámara DJI Osmo Pocket 3"
   }
  ]
 }
