@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-23 08:14",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-23 08:16",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
  "en_cola": 42,
  "pendientes_aprobar": 0,
@@ -13,13 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-23",
-   "hora": "08:15",
-   "red": "facebook",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Set",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-23",
    "hora": "08:16",
@@ -81,6 +79,13 @@
    "hora": "11:40",
    "red": "instagram",
    "nombre": "Zuecos Crocs forrados peluditos",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "12:30",
+   "red": "facebook",
+   "nombre": "Pack regalo Babaria ácido hialurónico",
    "estado": "aprobado"
   }
  ],
