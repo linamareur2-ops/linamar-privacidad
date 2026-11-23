@@ -1,19 +1,14 @@
 {
- "actualizado": "2026-11-23 15:36",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-23 15:37",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 5,
-  "instagram": 4
+  "facebook": 9,
+  "instagram": 9
  },
- "en_cola": 32,
+ "en_cola": 24,
  "pendientes_aprobar": 0,
- "errores_hoy": 1,
+ "errores_hoy": 0,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -94,44 +89,44 @@
  ],
  "ultimos": [
   {
-   "hora": "08:16",
-   "red": "instagram",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Set"
-  },
-  {
-   "hora": "08:30",
+   "hora": "12:30",
    "red": "facebook",
-   "nombre": "Cámara DJI Osmo Pocket 3"
+   "nombre": "Pack regalo Babaria ácido hialurónico"
   },
   {
-   "hora": "08:40",
+   "hora": "12:40",
    "red": "instagram",
-   "nombre": "Cámara DJI Osmo Pocket 3"
+   "nombre": "Pack regalo Babaria ácido hialurónico"
   },
   {
-   "hora": "09:30",
+   "hora": "13:30",
    "red": "facebook",
-   "nombre": "Sérum en spray d'alba Trufa Blanca"
+   "nombre": "Parches de ojos BIODANCE con colágeno"
   },
   {
-   "hora": "09:40",
+   "hora": "13:40",
    "red": "instagram",
-   "nombre": "Sérum en spray d'alba Trufa Blanca"
+   "nombre": "Parches de ojos BIODANCE con colágeno"
   },
   {
-   "hora": "10:30",
+   "hora": "14:15",
    "red": "facebook",
-   "nombre": "La Roche-Posay Cicaplast Baume B5+"
+   "nombre": "Bedsure heated throw blanket"
   },
   {
-   "hora": "11:30",
-   "red": "facebook",
-   "nombre": "Zuecos Crocs forrados peluditos"
-  },
-  {
-   "hora": "11:40",
+   "hora": "14:25",
    "red": "instagram",
-   "nombre": "Zuecos Crocs forrados peluditos"
+   "nombre": "Bedsure heated throw blanket"
+  },
+  {
+   "hora": "15:15",
+   "red": "facebook",
+   "nombre": "grace & stella gold eye patches"
+  },
+  {
+   "hora": "15:25",
+   "red": "instagram",
+   "nombre": "grace & stella gold eye patches"
   }
  ]
 }
