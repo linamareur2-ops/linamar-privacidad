@@ -1,9 +1,14 @@
 {
- "actualizado": "2026-11-23 07:27",
- "trabajando": [],
- "accion": "Estudio de mercado terminado",
+ "actualizado": "2026-11-23 08:14",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
- "en_cola": 40,
+ "en_cola": 42,
  "pendientes_aprobar": 20,
  "errores_hoy": 0,
  "redes": {
@@ -13,6 +18,20 @@
   "pinterest_us": false
  },
  "proximos": [
+  {
+   "fecha": "2026-11-23",
+   "hora": "08:15",
+   "red": "facebook",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Set",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "08:16",
+   "red": "instagram",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Set",
+   "estado": "aprobado"
+  },
   {
    "fecha": "2026-11-23",
    "hora": "08:30",
@@ -67,20 +86,6 @@
    "hora": "11:40",
    "red": "instagram",
    "nombre": "Zuecos Crocs forrados peluditos",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "12:30",
-   "red": "facebook",
-   "nombre": "Pack regalo Babaria ácido hialurónico",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "12:40",
-   "red": "instagram",
-   "nombre": "Pack regalo Babaria ácido hialurónico",
    "estado": "aprobado"
   }
  ],
