@@ -1,19 +1,14 @@
 {
  "actualizado": "2026-11-23 12:09",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 3,
-  "instagram": 3
+  "facebook": 5,
+  "instagram": 4
  },
- "en_cola": 36,
+ "en_cola": 32,
  "pendientes_aprobar": 0,
- "errores_hoy": 0,
+ "errores_hoy": 1,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -94,11 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "08:15",
-   "red": "facebook",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Set"
-  },
-  {
    "hora": "08:16",
    "red": "instagram",
    "nombre": "PRETTYGARDEN Women's 2 Piece Set"
@@ -122,6 +112,21 @@
    "hora": "09:40",
    "red": "instagram",
    "nombre": "Sérum en spray d'alba Trufa Blanca"
+  },
+  {
+   "hora": "10:30",
+   "red": "facebook",
+   "nombre": "La Roche-Posay Cicaplast Baume B5+"
+  },
+  {
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Zuecos Crocs forrados peluditos"
+  },
+  {
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Zuecos Crocs forrados peluditos"
   }
  ]
 }
