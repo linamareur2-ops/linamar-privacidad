@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-23 12:09",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-23 15:36",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 5,
   "instagram": 4
@@ -18,62 +23,6 @@
  "proximos": [
   {
    "fecha": "2026-11-23",
-   "hora": "12:30",
-   "red": "facebook",
-   "nombre": "Pack regalo Babaria ácido hialurónico",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "12:40",
-   "red": "instagram",
-   "nombre": "Pack regalo Babaria ácido hialurónico",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "13:30",
-   "red": "facebook",
-   "nombre": "Parches de ojos BIODANCE con colágeno",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Parches de ojos BIODANCE con colágeno",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "Bedsure heated throw blanket",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "Bedsure heated throw blanket",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "15:15",
-   "red": "facebook",
-   "nombre": "grace & stella gold eye patches",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "15:25",
-   "red": "instagram",
-   "nombre": "grace & stella gold eye patches",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
    "hora": "15:45",
    "red": "facebook",
    "nombre": "Rosa eterna real para regalar",
@@ -84,6 +33,62 @@
    "hora": "15:55",
    "red": "instagram",
    "nombre": "Rosa eterna real para regalar",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "16:15",
+   "red": "facebook",
+   "nombre": "YETI Rambler travel bottle",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "YETI Rambler travel bottle",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "Owala SmoothSip coffee tumbler",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "Owala SmoothSip coffee tumbler",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Crema medicube Capsule PDRN",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Crema medicube Capsule PDRN",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "18:15",
+   "red": "facebook",
+   "nombre": "Chunky gold hoop earrings",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "18:25",
+   "red": "instagram",
+   "nombre": "Chunky gold hoop earrings",
    "estado": "aprobado"
   }
  ],
