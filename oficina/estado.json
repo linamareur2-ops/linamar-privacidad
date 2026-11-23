@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-23 19:15",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-23 19:19",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 12,
-  "instagram": 12
+  "facebook": 15,
+  "instagram": 14
  },
- "en_cola": 18,
- "pendientes_aprobar": 0,
+ "en_cola": 53,
+ "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -21,13 +16,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-23",
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "Trendy Queen 2-piece lounge set",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-23",
    "hora": "19:25",
@@ -90,34 +78,16 @@
    "red": "instagram",
    "nombre": "Organizador de bolso Tous Lindsay",
    "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-23",
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "Tree Hut Candy Cane whipped body butter",
+   "estado": "aprobado"
   }
  ],
  "ultimos": [
-  {
-   "hora": "15:15",
-   "red": "facebook",
-   "nombre": "grace & stella gold eye patches"
-  },
-  {
-   "hora": "15:25",
-   "red": "instagram",
-   "nombre": "grace & stella gold eye patches"
-  },
-  {
-   "hora": "15:45",
-   "red": "facebook",
-   "nombre": "Rosa eterna real para regalar"
-  },
-  {
-   "hora": "15:55",
-   "red": "instagram",
-   "nombre": "Rosa eterna real para regalar"
-  },
-  {
-   "hora": "16:15",
-   "red": "facebook",
-   "nombre": "YETI Rambler travel bottle"
-  },
   {
    "hora": "16:25",
    "red": "instagram",
@@ -132,6 +102,31 @@
    "hora": "17:25",
    "red": "instagram",
    "nombre": "Owala SmoothSip coffee tumbler"
+  },
+  {
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Crema medicube Capsule PDRN"
+  },
+  {
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Crema medicube Capsule PDRN"
+  },
+  {
+   "hora": "18:15",
+   "red": "facebook",
+   "nombre": "Chunky gold hoop earrings"
+  },
+  {
+   "hora": "18:25",
+   "red": "instagram",
+   "nombre": "Chunky gold hoop earrings"
+  },
+  {
+   "hora": "19:15",
+   "red": "facebook",
+   "nombre": "Trendy Queen 2-piece lounge set"
   }
  ]
 }
