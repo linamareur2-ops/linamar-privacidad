@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-23 23:12",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-23 23:13",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 19,
-  "instagram": 19
+  "facebook": 20,
+  "instagram": 20
  },
- "en_cola": 44,
+ "en_cola": 42,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -94,16 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "19:45",
-   "red": "facebook",
-   "nombre": "Kit escultura de manos de pareja"
-  },
-  {
-   "hora": "19:55",
-   "red": "instagram",
-   "nombre": "Kit escultura de manos de pareja"
-  },
-  {
    "hora": "20:15",
    "red": "facebook",
    "nombre": "Bedsure satin pillowcases"
@@ -132,6 +117,16 @@
    "hora": "21:55",
    "red": "instagram",
    "nombre": "Organizador de bolso Tous Lindsay"
+  },
+  {
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "Tree Hut Candy Cane whipped body butter"
+  },
+  {
+   "hora": "22:25",
+   "red": "instagram",
+   "nombre": "Tree Hut Candy Cane whipped body butter"
   }
  ]
 }
