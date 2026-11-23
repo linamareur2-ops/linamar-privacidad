@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-23 22:12",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-23 22:33",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 17,
-  "instagram": 16
+  "facebook": 19,
+  "instagram": 19
  },
- "en_cola": 49,
- "pendientes_aprobar": 40,
+ "en_cola": 44,
+ "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -21,20 +16,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-23",
-   "hora": "22:15",
-   "red": "facebook",
-   "nombre": "Tree Hut Candy Cane whipped body butter",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "Tree Hut Candy Cane whipped body butter",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-23",
    "hora": "23:15",
@@ -54,70 +35,59 @@
    "hora": "08:30",
    "red": "facebook",
    "nombre": "Set de regalo con taza de cerámica",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-24",
    "hora": "08:40",
    "red": "instagram",
    "nombre": "Set de regalo con taza de cerámica",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-24",
    "hora": "09:30",
    "red": "facebook",
    "nombre": "Burro para ropa con ruedas SONGMICS (plata)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-24",
    "hora": "09:40",
    "red": "instagram",
    "nombre": "Burro para ropa con ruedas SONGMICS (plata)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-24",
    "hora": "10:30",
    "red": "facebook",
    "nombre": "Humidificador difusor de aromas Cecotec (made",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-24",
    "hora": "10:40",
    "red": "instagram",
    "nombre": "Humidificador difusor de aromas Cecotec (made",
-   "estado": "pendiente"
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Papel para freidora de aire (100 uds)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Papel para freidora de aire (100 uds)",
+   "estado": "aprobado"
   }
  ],
  "ultimos": [
-  {
-   "hora": "17:55",
-   "red": "instagram",
-   "nombre": "Crema medicube Capsule PDRN"
-  },
-  {
-   "hora": "18:15",
-   "red": "facebook",
-   "nombre": "Chunky gold hoop earrings"
-  },
-  {
-   "hora": "18:25",
-   "red": "instagram",
-   "nombre": "Chunky gold hoop earrings"
-  },
-  {
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "Trendy Queen 2-piece lounge set"
-  },
-  {
-   "hora": "19:25",
-   "red": "instagram",
-   "nombre": "Trendy Queen 2-piece lounge set"
-  },
   {
    "hora": "19:45",
    "red": "facebook",
@@ -132,6 +102,31 @@
    "hora": "20:15",
    "red": "facebook",
    "nombre": "Bedsure satin pillowcases"
+  },
+  {
+   "hora": "20:25",
+   "red": "instagram",
+   "nombre": "Bedsure satin pillowcases"
+  },
+  {
+   "hora": "21:15",
+   "red": "facebook",
+   "nombre": "Kendra Scott Starstruck Elisa necklace"
+  },
+  {
+   "hora": "21:25",
+   "red": "instagram",
+   "nombre": "Kendra Scott Starstruck Elisa necklace"
+  },
+  {
+   "hora": "21:45",
+   "red": "facebook",
+   "nombre": "Organizador de bolso Tous Lindsay"
+  },
+  {
+   "hora": "21:55",
+   "red": "instagram",
+   "nombre": "Organizador de bolso Tous Lindsay"
   }
  ]
 }
