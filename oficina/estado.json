@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-23 20:25",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-23 22:12",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 17,
   "instagram": 16
@@ -16,41 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-23",
-   "hora": "20:25",
-   "red": "instagram",
-   "nombre": "Bedsure satin pillowcases",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "21:15",
-   "red": "facebook",
-   "nombre": "Kendra Scott Starstruck Elisa necklace",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "21:25",
-   "red": "instagram",
-   "nombre": "Kendra Scott Starstruck Elisa necklace",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "21:45",
-   "red": "facebook",
-   "nombre": "Organizador de bolso Tous Lindsay",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "21:55",
-   "red": "instagram",
-   "nombre": "Organizador de bolso Tous Lindsay",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-23",
    "hora": "22:15",
@@ -84,6 +54,41 @@
    "hora": "08:30",
    "red": "facebook",
    "nombre": "Set de regalo con taza de cerámica",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "08:40",
+   "red": "instagram",
+   "nombre": "Set de regalo con taza de cerámica",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "09:30",
+   "red": "facebook",
+   "nombre": "Burro para ropa con ruedas SONGMICS (plata)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "09:40",
+   "red": "instagram",
+   "nombre": "Burro para ropa con ruedas SONGMICS (plata)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "10:30",
+   "red": "facebook",
+   "nombre": "Humidificador difusor de aromas Cecotec (made",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "10:40",
+   "red": "instagram",
+   "nombre": "Humidificador difusor de aromas Cecotec (made",
    "estado": "pendiente"
   }
  ],
