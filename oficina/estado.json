@@ -1,12 +1,14 @@
 {
- "actualizado": "2026-11-23 23:13",
- "trabajando": [],
- "accion": "Turno terminado",
- "publicados_hoy": {
-  "facebook": 20,
-  "instagram": 20
- },
- "en_cola": 42,
+ "actualizado": "2026-11-24 00:14",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "publicados_hoy": {},
+ "en_cola": 40,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -16,20 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-23",
-   "hora": "23:15",
-   "red": "facebook",
-   "nombre": "CRZ YOGA Butterluxe leggings",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-23",
-   "hora": "23:25",
-   "red": "instagram",
-   "nombre": "CRZ YOGA Butterluxe leggings",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-24",
    "hora": "08:30",
@@ -85,48 +73,21 @@
    "red": "instagram",
    "nombre": "Papel para freidora de aire (100 uds)",
    "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "12:30",
+   "red": "facebook",
+   "nombre": "Protector de colchón impermeable (135x190)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "12:40",
+   "red": "instagram",
+   "nombre": "Protector de colchón impermeable (135x190)",
+   "estado": "aprobado"
   }
  ],
- "ultimos": [
-  {
-   "hora": "20:15",
-   "red": "facebook",
-   "nombre": "Bedsure satin pillowcases"
-  },
-  {
-   "hora": "20:25",
-   "red": "instagram",
-   "nombre": "Bedsure satin pillowcases"
-  },
-  {
-   "hora": "21:15",
-   "red": "facebook",
-   "nombre": "Kendra Scott Starstruck Elisa necklace"
-  },
-  {
-   "hora": "21:25",
-   "red": "instagram",
-   "nombre": "Kendra Scott Starstruck Elisa necklace"
-  },
-  {
-   "hora": "21:45",
-   "red": "facebook",
-   "nombre": "Organizador de bolso Tous Lindsay"
-  },
-  {
-   "hora": "21:55",
-   "red": "instagram",
-   "nombre": "Organizador de bolso Tous Lindsay"
-  },
-  {
-   "hora": "22:15",
-   "red": "facebook",
-   "nombre": "Tree Hut Candy Cane whipped body butter"
-  },
-  {
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "Tree Hut Candy Cane whipped body butter"
-  }
- ]
+ "ultimos": []
 }
