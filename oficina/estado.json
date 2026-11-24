@@ -1,12 +1,14 @@
 {
- "actualizado": "2026-11-24 23:18",
- "trabajando": [],
- "accion": "Turno terminado",
- "publicados_hoy": {
-  "facebook": 20,
-  "instagram": 19
- },
- "en_cola": 41,
+ "actualizado": "2026-11-25 00:14",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "publicados_hoy": {},
+ "en_cola": 40,
  "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
@@ -16,13 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-24",
-   "hora": "23:25",
-   "red": "instagram",
-   "nombre": "Amazon Basics Slim Velvet Non-Slip Space Savi",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-25",
    "hora": "08:30",
@@ -85,48 +80,14 @@
    "red": "facebook",
    "nombre": "Perchas de terciopelo Amazon Basics (50 uds, ",
    "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "12:40",
+   "red": "instagram",
+   "nombre": "Perchas de terciopelo Amazon Basics (50 uds, ",
+   "estado": "pendiente"
   }
  ],
- "ultimos": [
-  {
-   "hora": "20:25",
-   "red": "instagram",
-   "nombre": "STANLEY IceFlow 2.0 Flip Straw Tumbler"
-  },
-  {
-   "hora": "21:15",
-   "red": "facebook",
-   "nombre": "Beats Solo 4 On-Ear Headphones"
-  },
-  {
-   "hora": "21:25",
-   "red": "instagram",
-   "nombre": "Beats Solo 4 On-Ear Headphones"
-  },
-  {
-   "hora": "21:45",
-   "red": "facebook",
-   "nombre": "Bolsas de vacío Amazon Basics (6 uds + bomba)"
-  },
-  {
-   "hora": "21:55",
-   "red": "instagram",
-   "nombre": "Bolsas de vacío Amazon Basics (6 uds + bomba)"
-  },
-  {
-   "hora": "22:15",
-   "red": "facebook",
-   "nombre": "Dainty Feather Flower Large Brooch Pin for Wo"
-  },
-  {
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "Dainty Feather Flower Large Brooch Pin for Wo"
-  },
-  {
-   "hora": "23:15",
-   "red": "facebook",
-   "nombre": "Amazon Basics Slim Velvet Non-Slip Space Savi"
-  }
- ]
+ "ultimos": []
 }
