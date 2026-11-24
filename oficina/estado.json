@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-24 13:20",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-24 14:42",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 5,
   "instagram": 5
@@ -16,34 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-24",
-   "hora": "13:30",
-   "red": "facebook",
-   "nombre": "Erborian CC Crème con centella",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Erborian CC Crème con centella",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-24",
    "hora": "15:15",
@@ -84,6 +61,34 @@
    "hora": "16:25",
    "red": "instagram",
    "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "EverFoams fuzzy slippers",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "EverFoams fuzzy slippers",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Zapatero extensible metálico de 2 niveles",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Zapatero extensible metálico de 2 niveles",
    "estado": "aprobado"
   }
  ],
