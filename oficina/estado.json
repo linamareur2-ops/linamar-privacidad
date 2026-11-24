@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-24 18:25",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-24 19:12",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 13,
   "instagram": 12
@@ -16,13 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-24",
-   "hora": "18:25",
-   "red": "instagram",
-   "nombre": "Apple AirPods Pro 3 Wireless Earbuds with Act",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-24",
    "hora": "19:15",
@@ -83,6 +81,13 @@
    "fecha": "2026-11-24",
    "hora": "21:45",
    "red": "facebook",
+   "nombre": "Bolsas de vacío Amazon Basics (6 uds + bomba)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "21:55",
+   "red": "instagram",
    "nombre": "Bolsas de vacío Amazon Basics (6 uds + bomba)",
    "estado": "aprobado"
   }
