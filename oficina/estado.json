@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-24 16:25",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-24 16:26",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 7,
-  "instagram": 7
+  "facebook": 10,
+  "instagram": 10
  },
- "en_cola": 26,
+ "en_cola": 20,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -21,13 +16,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-24",
-   "hora": "16:25",
-   "red": "instagram",
-   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-24",
    "hora": "17:15",
@@ -90,39 +78,16 @@
    "red": "facebook",
    "nombre": "Ganchos ahorra espacio para perchas (20 uds)",
    "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "19:55",
+   "red": "instagram",
+   "nombre": "Ganchos ahorra espacio para perchas (20 uds)",
+   "estado": "aprobado"
   }
  ],
  "ultimos": [
-  {
-   "hora": "11:30",
-   "red": "facebook",
-   "nombre": "Papel para freidora de aire (100 uds)"
-  },
-  {
-   "hora": "11:40",
-   "red": "instagram",
-   "nombre": "Papel para freidora de aire (100 uds)"
-  },
-  {
-   "hora": "12:30",
-   "red": "facebook",
-   "nombre": "Protector de colchón impermeable (135x190)"
-  },
-  {
-   "hora": "12:40",
-   "red": "instagram",
-   "nombre": "Protector de colchón impermeable (135x190)"
-  },
-  {
-   "hora": "13:30",
-   "red": "facebook",
-   "nombre": "Erborian CC Crème con centella"
-  },
-  {
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Erborian CC Crème con centella"
-  },
   {
    "hora": "14:15",
    "red": "facebook",
@@ -132,6 +97,36 @@
    "hora": "14:25",
    "red": "instagram",
    "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
+  },
+  {
+   "hora": "15:15",
+   "red": "facebook",
+   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
+  },
+  {
+   "hora": "15:25",
+   "red": "instagram",
+   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
+  },
+  {
+   "hora": "15:45",
+   "red": "facebook",
+   "nombre": "Barra de ganchos adhesiva 40 cm (plateada)"
+  },
+  {
+   "hora": "15:55",
+   "red": "instagram",
+   "nombre": "Barra de ganchos adhesiva 40 cm (plateada)"
+  },
+  {
+   "hora": "16:15",
+   "red": "facebook",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
+  },
+  {
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
   }
  ]
 }
