@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-24 19:12",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-24 20:24",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 13,
   "instagram": 13
@@ -16,41 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-24",
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "DREO Space Heater",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "19:25",
-   "red": "instagram",
-   "nombre": "DREO Space Heater",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "19:45",
-   "red": "facebook",
-   "nombre": "Ganchos ahorra espacio para perchas (20 uds)",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "19:55",
-   "red": "instagram",
-   "nombre": "Ganchos ahorra espacio para perchas (20 uds)",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "20:15",
-   "red": "facebook",
-   "nombre": "STANLEY IceFlow 2.0 Flip Straw Tumbler",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-24",
    "hora": "20:25",
@@ -85,6 +55,41 @@
    "red": "instagram",
    "nombre": "Bolsas de vacío Amazon Basics (6 uds + bomba)",
    "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "Dainty Feather Flower Large Brooch Pin for Wo",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "22:25",
+   "red": "instagram",
+   "nombre": "Dainty Feather Flower Large Brooch Pin for Wo",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "23:15",
+   "red": "facebook",
+   "nombre": "Amazon Basics Slim Velvet Non-Slip Space Savi",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-24",
+   "hora": "23:25",
+   "red": "instagram",
+   "nombre": "Amazon Basics Slim Velvet Non-Slip Space Savi",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "08:30",
+   "red": "facebook",
+   "nombre": "Set de 10 cremas de manos mini",
+   "estado": "pendiente"
   }
  ],
  "ultimos": [
