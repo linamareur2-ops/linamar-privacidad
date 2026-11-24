@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-24 12:14",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-24 12:15",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 3,
-  "instagram": 2
+  "facebook": 4,
+  "instagram": 4
  },
- "en_cola": 35,
+ "en_cola": 32,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -117,6 +112,21 @@
    "hora": "10:30",
    "red": "facebook",
    "nombre": "Humidificador difusor de aromas Cecotec (made"
+  },
+  {
+   "hora": "10:40",
+   "red": "instagram",
+   "nombre": "Humidificador difusor de aromas Cecotec (made"
+  },
+  {
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Papel para freidora de aire (100 uds)"
+  },
+  {
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Papel para freidora de aire (100 uds)"
   }
  ]
 }
