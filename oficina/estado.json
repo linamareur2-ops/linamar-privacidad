@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-24 14:42",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-24 14:43",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 5,
-  "instagram": 5
+  "facebook": 7,
+  "instagram": 7
  },
- "en_cola": 30,
+ "en_cola": 26,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -94,26 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "09:30",
-   "red": "facebook",
-   "nombre": "Burro para ropa con ruedas SONGMICS (plata)"
-  },
-  {
-   "hora": "09:40",
-   "red": "instagram",
-   "nombre": "Burro para ropa con ruedas SONGMICS (plata)"
-  },
-  {
-   "hora": "10:30",
-   "red": "facebook",
-   "nombre": "Humidificador difusor de aromas Cecotec (made"
-  },
-  {
-   "hora": "10:40",
-   "red": "instagram",
-   "nombre": "Humidificador difusor de aromas Cecotec (made"
-  },
-  {
    "hora": "11:30",
    "red": "facebook",
    "nombre": "Papel para freidora de aire (100 uds)"
@@ -132,6 +107,26 @@
    "hora": "12:40",
    "red": "instagram",
    "nombre": "Protector de colchón impermeable (135x190)"
+  },
+  {
+   "hora": "13:30",
+   "red": "facebook",
+   "nombre": "Erborian CC Crème con centella"
+  },
+  {
+   "hora": "13:40",
+   "red": "instagram",
+   "nombre": "Erborian CC Crème con centella"
+  },
+  {
+   "hora": "14:15",
+   "red": "facebook",
+   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
+  },
+  {
+   "hora": "14:25",
+   "red": "instagram",
+   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
   }
  ]
 }
