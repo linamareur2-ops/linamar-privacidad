@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-24 22:37",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-24 23:18",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 19,
   "instagram": 18
@@ -16,13 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-24",
-   "hora": "23:15",
-   "red": "facebook",
-   "nombre": "Amazon Basics Slim Velvet Non-Slip Space Savi",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-24",
    "hora": "23:25",
@@ -84,6 +82,13 @@
    "hora": "11:40",
    "red": "instagram",
    "nombre": "Sérum medicube PDRN Pink Peptide",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "12:30",
+   "red": "facebook",
+   "nombre": "Perchas de terciopelo Amazon Basics (50 uds, ",
    "estado": "pendiente"
   }
  ],
