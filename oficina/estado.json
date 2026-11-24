@@ -1,17 +1,12 @@
 {
  "actualizado": "2026-11-24 19:12",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
   "facebook": 13,
-  "instagram": 12
+  "instagram": 13
  },
- "en_cola": 55,
+ "en_cola": 54,
  "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
@@ -94,11 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "15:55",
-   "red": "instagram",
-   "nombre": "Barra de ganchos adhesiva 40 cm (plateada)"
-  },
-  {
    "hora": "16:15",
    "red": "facebook",
    "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
@@ -131,6 +121,11 @@
   {
    "hora": "18:15",
    "red": "facebook",
+   "nombre": "Apple AirPods Pro 3 Wireless Earbuds with Act"
+  },
+  {
+   "hora": "18:25",
+   "red": "instagram",
    "nombre": "Apple AirPods Pro 3 Wireless Earbuds with Act"
   }
  ]
