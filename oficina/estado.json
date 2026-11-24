@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-24 18:21",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-24 18:25",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 10,
-  "instagram": 10
+  "facebook": 13,
+  "instagram": 12
  },
- "en_cola": 20,
- "pendientes_aprobar": 0,
+ "en_cola": 55,
+ "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -94,31 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
-  },
-  {
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
-  },
-  {
-   "hora": "15:15",
-   "red": "facebook",
-   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
-  },
-  {
-   "hora": "15:25",
-   "red": "instagram",
-   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
-  },
-  {
-   "hora": "15:45",
-   "red": "facebook",
-   "nombre": "Barra de ganchos adhesiva 40 cm (plateada)"
-  },
-  {
    "hora": "15:55",
    "red": "instagram",
    "nombre": "Barra de ganchos adhesiva 40 cm (plateada)"
@@ -132,6 +102,31 @@
    "hora": "16:25",
    "red": "instagram",
    "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
+  },
+  {
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "EverFoams fuzzy slippers"
+  },
+  {
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "EverFoams fuzzy slippers"
+  },
+  {
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Zapatero extensible metálico de 2 niveles"
+  },
+  {
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Zapatero extensible metálico de 2 niveles"
+  },
+  {
+   "hora": "18:15",
+   "red": "facebook",
+   "nombre": "Apple AirPods Pro 3 Wireless Earbuds with Act"
   }
  ]
 }
