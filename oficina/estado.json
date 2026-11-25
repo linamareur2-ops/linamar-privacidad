@@ -1,10 +1,15 @@
 {
- "actualizado": "2026-11-25 23:18",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-26 00:14",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
- "en_cola": 80,
- "pendientes_aprobar": 80,
+ "en_cola": 40,
+ "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -13,13 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-25",
-   "hora": "23:25",
-   "red": "instagram",
-   "nombre": "nutribullet personal blender",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "08:30",
@@ -80,6 +78,13 @@
    "fecha": "2026-11-26",
    "hora": "12:30",
    "red": "facebook",
+   "nombre": "Red de secado para jerséis Leifheit",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "12:40",
+   "red": "instagram",
    "nombre": "Red de secado para jerséis Leifheit",
    "estado": "pendiente"
   }
