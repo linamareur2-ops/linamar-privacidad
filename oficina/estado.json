@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-25 19:08",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-25 20:19",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
  "en_cola": 80,
  "pendientes_aprobar": 80,
@@ -13,41 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-25",
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "Anua PDRN Collagen Glow mist",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "19:25",
-   "red": "instagram",
-   "nombre": "Anua PDRN Collagen Glow mist",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "19:45",
-   "red": "facebook",
-   "nombre": "Organizador de maquillaje giratorio 360º (bla",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "19:55",
-   "red": "instagram",
-   "nombre": "Organizador de maquillaje giratorio 360º (bla",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "20:15",
-   "red": "facebook",
-   "nombre": "Kendra Scott Mini Elisa 14k Gold-Plated Satel",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-25",
    "hora": "20:25",
@@ -81,6 +51,41 @@
    "hora": "21:55",
    "red": "instagram",
    "nombre": "Bolsa de agua caliente con funda polar (1,8 L",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "Apple EarPods Headphones with USB-C Plug",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "22:25",
+   "red": "instagram",
+   "nombre": "Apple EarPods Headphones with USB-C Plug",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "23:15",
+   "red": "facebook",
+   "nombre": "nutribullet personal blender",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "23:25",
+   "red": "instagram",
+   "nombre": "nutribullet personal blender",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "08:30",
+   "red": "facebook",
+   "nombre": "Estante extensible para armarios de cocina (b",
    "estado": "pendiente"
   }
  ],
