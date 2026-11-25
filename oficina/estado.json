@@ -1,15 +1,10 @@
 {
- "actualizado": "2026-11-26 00:14",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-26 00:15",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {},
  "en_cola": 40,
- "pendientes_aprobar": 40,
+ "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -23,70 +18,70 @@
    "hora": "08:30",
    "red": "facebook",
    "nombre": "Estante extensible para armarios de cocina (b",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "08:40",
    "red": "instagram",
    "nombre": "Estante extensible para armarios de cocina (b",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "09:30",
    "red": "facebook",
    "nombre": "Taza térmica de acero con asa (azul marino)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "09:40",
    "red": "instagram",
    "nombre": "Taza térmica de acero con asa (azul marino)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "10:30",
    "red": "facebook",
    "nombre": "Cesto para ropa sucia VASAGLE 3 compartimento",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "10:40",
    "red": "instagram",
    "nombre": "Cesto para ropa sucia VASAGLE 3 compartimento",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "11:30",
    "red": "facebook",
    "nombre": "Bolsas de red para lavadora (7 uds)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "11:40",
    "red": "instagram",
    "nombre": "Bolsas de red para lavadora (7 uds)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "12:30",
    "red": "facebook",
    "nombre": "Red de secado para jerséis Leifheit",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-26",
    "hora": "12:40",
    "red": "instagram",
    "nombre": "Red de secado para jerséis Leifheit",
-   "estado": "pendiente"
+   "estado": "aprobado"
   }
  ],
  "ultimos": []
