@@ -1,12 +1,7 @@
 {
- "actualizado": "2026-11-25 22:18",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-25 22:39",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {},
  "en_cola": 80,
  "pendientes_aprobar": 80,
@@ -18,13 +13,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-25",
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "Apple EarPods Headphones with USB-C Plug",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-25",
    "hora": "23:15",
@@ -85,6 +73,13 @@
    "fecha": "2026-11-26",
    "hora": "11:30",
    "red": "facebook",
+   "nombre": "Bolsas de red para lavadora (7 uds)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "11:40",
+   "red": "instagram",
    "nombre": "Bolsas de red para lavadora (7 uds)",
    "estado": "pendiente"
   }
