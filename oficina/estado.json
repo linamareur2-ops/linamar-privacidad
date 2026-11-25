@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-25 07:19",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-25 08:49",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
  "en_cola": 40,
  "pendientes_aprobar": 40,
@@ -13,20 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-25",
-   "hora": "08:30",
-   "red": "facebook",
-   "nombre": "Set de 10 cremas de manos mini",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "08:40",
-   "red": "instagram",
-   "nombre": "Set de 10 cremas de manos mini",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-25",
    "hora": "09:30",
@@ -81,6 +72,20 @@
    "hora": "12:40",
    "red": "instagram",
    "nombre": "Perchas de terciopelo Amazon Basics (50 uds, ",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "13:30",
+   "red": "facebook",
+   "nombre": "Bayetas de microfibra Vileda PurMicro (4 uds)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "13:40",
+   "red": "instagram",
+   "nombre": "Bayetas de microfibra Vileda PurMicro (4 uds)",
    "estado": "pendiente"
   }
  ],
