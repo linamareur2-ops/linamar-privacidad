@@ -1,15 +1,10 @@
 {
- "actualizado": "2026-11-25 19:04",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-25 19:08",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {},
- "en_cola": 40,
- "pendientes_aprobar": 40,
+ "en_cola": 80,
+ "pendientes_aprobar": 80,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
