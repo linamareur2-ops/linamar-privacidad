@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-25 08:49",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-25 10:38",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
  "en_cola": 40,
  "pendientes_aprobar": 40,
@@ -13,27 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-25",
-   "hora": "09:30",
-   "red": "facebook",
-   "nombre": "Organizadores de nevera transparentes (6 uds)",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "09:40",
-   "red": "instagram",
-   "nombre": "Organizadores de nevera transparentes (6 uds)",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "10:30",
-   "red": "facebook",
-   "nombre": "Organizador bajo fregadero extensible (2 nive",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-25",
    "hora": "10:40",
@@ -81,6 +65,27 @@
    "hora": "13:40",
    "red": "instagram",
    "nombre": "Bayetas de microfibra Vileda PurMicro (4 uds)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "14:15",
+   "red": "facebook",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "14:25",
+   "red": "instagram",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "hora": "15:15",
+   "red": "facebook",
+   "nombre": "Beetles Christmas gel polish set",
    "estado": "pendiente"
   }
  ],
