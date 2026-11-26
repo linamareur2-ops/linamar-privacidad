@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-26 16:25",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-26 18:26",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 30,
   "instagram": 29
@@ -16,55 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "16:25",
-   "red": "instagram",
-   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "17:15",
-   "red": "facebook",
-   "nombre": "HydroJug Polka Dot Traveler",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "17:25",
-   "red": "instagram",
-   "nombre": "HydroJug Polka Dot Traveler",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "17:45",
-   "red": "facebook",
-   "nombre": "Jersey navideño de mujer con estrellas",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "17:55",
-   "red": "instagram",
-   "nombre": "Jersey navideño de mujer con estrellas",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "18:15",
-   "red": "facebook",
-   "nombre": "Yankee Candle Balsam & Cedar",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "18:25",
-   "red": "instagram",
-   "nombre": "Yankee Candle Balsam & Cedar",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "19:15",
@@ -84,6 +40,55 @@
    "hora": "19:45",
    "red": "facebook",
    "nombre": "Colorete NYX Buttermelt",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "19:55",
+   "red": "instagram",
+   "nombre": "Colorete NYX Buttermelt",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "20:15",
+   "red": "facebook",
+   "nombre": "Amazon Basics Lightweight Super Soft Breathab",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "20:25",
+   "red": "instagram",
+   "nombre": "Amazon Basics Lightweight Super Soft Breathab",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "21:15",
+   "red": "facebook",
+   "nombre": "Bedsure cozy white throw blanket",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "21:25",
+   "red": "instagram",
+   "nombre": "Bedsure cozy white throw blanket",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "21:45",
+   "red": "facebook",
+   "nombre": "Albornoz de mujer con cuello chal (gris acero",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "21:55",
+   "red": "instagram",
+   "nombre": "Albornoz de mujer con cuello chal (gris acero",
    "estado": "aprobado"
   }
  ],
