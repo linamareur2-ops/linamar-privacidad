@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-26 22:13",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-26 22:34",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 36,
-  "instagram": 36
+  "facebook": 38,
+  "instagram": 38
  },
- "en_cola": 48,
- "pendientes_aprobar": 40,
+ "en_cola": 44,
+ "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -21,20 +16,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "22:15",
-   "red": "facebook",
-   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "23:15",
@@ -54,65 +35,59 @@
    "hora": "08:30",
    "red": "facebook",
    "nombre": "Mochila de cabina para Ryanair 40x30x20",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-27",
    "hora": "08:40",
    "red": "instagram",
    "nombre": "Mochila de cabina para Ryanair 40x30x20",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-27",
    "hora": "09:30",
    "red": "facebook",
    "nombre": "Botellas pulverizadoras 500 ml (3 uds)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-27",
    "hora": "09:40",
    "red": "instagram",
    "nombre": "Botellas pulverizadoras 500 ml (3 uds)",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-27",
    "hora": "10:30",
    "red": "facebook",
    "nombre": "Organizador colgante para armario SONGMICS (2",
-   "estado": "pendiente"
+   "estado": "aprobado"
   },
   {
    "fecha": "2026-11-27",
    "hora": "10:40",
    "red": "instagram",
    "nombre": "Organizador colgante para armario SONGMICS (2",
-   "estado": "pendiente"
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Velas LED de té (24 uds, blanco cálido)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Velas LED de té (24 uds, blanco cálido)",
+   "estado": "aprobado"
   }
  ],
  "ultimos": [
-  {
-   "hora": "18:15",
-   "red": "facebook",
-   "nombre": "Yankee Candle Balsam & Cedar"
-  },
-  {
-   "hora": "18:25",
-   "red": "instagram",
-   "nombre": "Yankee Candle Balsam & Cedar"
-  },
-  {
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "PriorityChef Large 15oz Potato Ricer"
-  },
-  {
-   "hora": "19:25",
-   "red": "instagram",
-   "nombre": "PriorityChef Large 15oz Potato Ricer"
-  },
   {
    "hora": "19:45",
    "red": "facebook",
@@ -132,6 +107,26 @@
    "hora": "20:25",
    "red": "instagram",
    "nombre": "Amazon Basics Lightweight Super Soft Breathab"
+  },
+  {
+   "hora": "21:15",
+   "red": "facebook",
+   "nombre": "Bedsure cozy white throw blanket"
+  },
+  {
+   "hora": "21:25",
+   "red": "instagram",
+   "nombre": "Bedsure cozy white throw blanket"
+  },
+  {
+   "hora": "21:45",
+   "red": "facebook",
+   "nombre": "Albornoz de mujer con cuello chal (gris acero"
+  },
+  {
+   "hora": "21:55",
+   "red": "instagram",
+   "nombre": "Albornoz de mujer con cuello chal (gris acero"
   }
  ]
 }
