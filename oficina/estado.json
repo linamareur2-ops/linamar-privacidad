@@ -1,17 +1,12 @@
 {
  "actualizado": "2026-11-26 12:17",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 23,
-  "instagram": 22
+  "facebook": 24,
+  "instagram": 24
  },
- "en_cola": 35,
+ "en_cola": 32,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -94,21 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "02:00",
-   "red": "instagram",
-   "nombre": "Apple EarPods Headphones with USB-C Plug"
-  },
-  {
-   "hora": "02:00",
-   "red": "facebook",
-   "nombre": "nutribullet personal blender"
-  },
-  {
-   "hora": "02:00",
-   "red": "instagram",
-   "nombre": "nutribullet personal blender"
-  },
-  {
    "hora": "08:30",
    "red": "facebook",
    "nombre": "Estante extensible para armarios de cocina (b"
@@ -132,6 +112,21 @@
    "hora": "10:30",
    "red": "facebook",
    "nombre": "Cesto para ropa sucia VASAGLE 3 compartimento"
+  },
+  {
+   "hora": "10:40",
+   "red": "instagram",
+   "nombre": "Cesto para ropa sucia VASAGLE 3 compartimento"
+  },
+  {
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Bolsas de red para lavadora (7 uds)"
+  },
+  {
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Bolsas de red para lavadora (7 uds)"
   }
  ]
 }
