@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-26 10:34",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-26 10:35",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 21,
-  "instagram": 21
+  "facebook": 23,
+  "instagram": 22
  },
- "en_cola": 38,
+ "en_cola": 35,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -95,21 +90,6 @@
  "ultimos": [
   {
    "hora": "02:00",
-   "red": "facebook",
-   "nombre": "Illiyoon Ceramide Ato Concentrate Cream"
-  },
-  {
-   "hora": "02:00",
-   "red": "instagram",
-   "nombre": "Illiyoon Ceramide Ato Concentrate Cream"
-  },
-  {
-   "hora": "02:00",
-   "red": "facebook",
-   "nombre": "Apple EarPods Headphones with USB-C Plug"
-  },
-  {
-   "hora": "02:00",
    "red": "instagram",
    "nombre": "Apple EarPods Headphones with USB-C Plug"
   },
@@ -132,6 +112,21 @@
    "hora": "08:40",
    "red": "instagram",
    "nombre": "Estante extensible para armarios de cocina (b"
+  },
+  {
+   "hora": "09:30",
+   "red": "facebook",
+   "nombre": "Taza térmica de acero con asa (azul marino)"
+  },
+  {
+   "hora": "09:40",
+   "red": "instagram",
+   "nombre": "Taza térmica de acero con asa (azul marino)"
+  },
+  {
+   "hora": "10:30",
+   "red": "facebook",
+   "nombre": "Cesto para ropa sucia VASAGLE 3 compartimento"
   }
  ]
 }
