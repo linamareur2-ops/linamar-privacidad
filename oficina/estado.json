@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-26 22:34",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-26 23:17",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 38,
   "instagram": 38
@@ -16,13 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "23:15",
-   "red": "facebook",
-   "nombre": "OEAK Womens Jelly Bras Wireless Deep V Bralet",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "23:25",
@@ -84,6 +82,13 @@
    "hora": "11:40",
    "red": "instagram",
    "nombre": "Velas LED de té (24 uds, blanco cálido)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "12:30",
+   "red": "facebook",
+   "nombre": "Cajas para zapatos apilables SONGMICS (12 uds",
    "estado": "aprobado"
   }
  ],
