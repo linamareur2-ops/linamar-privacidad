@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-26 23:17",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-26 23:18",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 38,
-  "instagram": 38
+  "facebook": 40,
+  "instagram": 39
  },
- "en_cola": 44,
+ "en_cola": 41,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -94,21 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "19:45",
-   "red": "facebook",
-   "nombre": "Colorete NYX Buttermelt"
-  },
-  {
-   "hora": "19:55",
-   "red": "instagram",
-   "nombre": "Colorete NYX Buttermelt"
-  },
-  {
-   "hora": "20:15",
-   "red": "facebook",
-   "nombre": "Amazon Basics Lightweight Super Soft Breathab"
-  },
-  {
    "hora": "20:25",
    "red": "instagram",
    "nombre": "Amazon Basics Lightweight Super Soft Breathab"
@@ -132,6 +112,21 @@
    "hora": "21:55",
    "red": "instagram",
    "nombre": "Albornoz de mujer con cuello chal (gris acero"
+  },
+  {
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt"
+  },
+  {
+   "hora": "22:25",
+   "red": "instagram",
+   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt"
+  },
+  {
+   "hora": "23:15",
+   "red": "facebook",
+   "nombre": "OEAK Womens Jelly Bras Wireless Deep V Bralet"
   }
  ]
 }
