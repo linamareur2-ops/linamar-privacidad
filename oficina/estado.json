@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-26 13:21",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-26 14:45",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 25,
   "instagram": 25
@@ -16,34 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "13:30",
-   "red": "facebook",
-   "nombre": "Calcetines térmicos de pelo (5 pares)",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Calcetines térmicos de pelo (5 pares)",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "15:15",
@@ -84,6 +61,34 @@
    "hora": "16:25",
    "red": "instagram",
    "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "HydroJug Polka Dot Traveler",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "HydroJug Polka Dot Traveler",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Jersey navideño de mujer con estrellas",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Jersey navideño de mujer con estrellas",
    "estado": "aprobado"
   }
  ],
