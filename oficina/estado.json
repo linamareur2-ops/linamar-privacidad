@@ -1,14 +1,12 @@
 {
- "actualizado": "2026-11-26 02:27",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
- "publicados_hoy": {},
- "en_cola": 80,
+ "actualizado": "2026-11-26 02:33",
+ "trabajando": [],
+ "accion": "Turno terminado",
+ "publicados_hoy": {
+  "facebook": 20,
+  "instagram": 20
+ },
+ "en_cola": 40,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -89,5 +87,46 @@
    "estado": "aprobado"
   }
  ],
- "ultimos": []
+ "ultimos": [
+  {
+   "hora": "02:00",
+   "red": "facebook",
+   "nombre": "Kendra Scott Mini Elisa 14k Gold-Plated Satel"
+  },
+  {
+   "hora": "02:00",
+   "red": "instagram",
+   "nombre": "Kendra Scott Mini Elisa 14k Gold-Plated Satel"
+  },
+  {
+   "hora": "02:00",
+   "red": "facebook",
+   "nombre": "Illiyoon Ceramide Ato Concentrate Cream"
+  },
+  {
+   "hora": "02:00",
+   "red": "instagram",
+   "nombre": "Illiyoon Ceramide Ato Concentrate Cream"
+  },
+  {
+   "hora": "02:00",
+   "red": "facebook",
+   "nombre": "Apple EarPods Headphones with USB-C Plug"
+  },
+  {
+   "hora": "02:00",
+   "red": "instagram",
+   "nombre": "Apple EarPods Headphones with USB-C Plug"
+  },
+  {
+   "hora": "02:00",
+   "red": "facebook",
+   "nombre": "nutribullet personal blender"
+  },
+  {
+   "hora": "02:00",
+   "red": "instagram",
+   "nombre": "nutribullet personal blender"
+  }
+ ]
 }
