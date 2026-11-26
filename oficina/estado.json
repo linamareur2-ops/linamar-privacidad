@@ -1,12 +1,14 @@
 {
- "actualizado": "2026-11-26 23:18",
- "trabajando": [],
- "accion": "Turno terminado",
- "publicados_hoy": {
-  "facebook": 40,
-  "instagram": 39
- },
- "en_cola": 41,
+ "actualizado": "2026-11-27 00:16",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "publicados_hoy": {},
+ "en_cola": 40,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -16,13 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "23:25",
-   "red": "instagram",
-   "nombre": "OEAK Womens Jelly Bras Wireless Deep V Bralet",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-27",
    "hora": "08:30",
@@ -85,48 +80,14 @@
    "red": "facebook",
    "nombre": "Cajas para zapatos apilables SONGMICS (12 uds",
    "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "12:40",
+   "red": "instagram",
+   "nombre": "Cajas para zapatos apilables SONGMICS (12 uds",
+   "estado": "aprobado"
   }
  ],
- "ultimos": [
-  {
-   "hora": "20:25",
-   "red": "instagram",
-   "nombre": "Amazon Basics Lightweight Super Soft Breathab"
-  },
-  {
-   "hora": "21:15",
-   "red": "facebook",
-   "nombre": "Bedsure cozy white throw blanket"
-  },
-  {
-   "hora": "21:25",
-   "red": "instagram",
-   "nombre": "Bedsure cozy white throw blanket"
-  },
-  {
-   "hora": "21:45",
-   "red": "facebook",
-   "nombre": "Albornoz de mujer con cuello chal (gris acero"
-  },
-  {
-   "hora": "21:55",
-   "red": "instagram",
-   "nombre": "Albornoz de mujer con cuello chal (gris acero"
-  },
-  {
-   "hora": "22:15",
-   "red": "facebook",
-   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt"
-  },
-  {
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt"
-  },
-  {
-   "hora": "23:15",
-   "red": "facebook",
-   "nombre": "OEAK Womens Jelly Bras Wireless Deep V Bralet"
-  }
- ]
+ "ultimos": []
 }
