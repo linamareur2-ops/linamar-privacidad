@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-26 18:34",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-26 20:25",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 33,
   "instagram": 33
@@ -16,41 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "PriorityChef Large 15oz Potato Ricer",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "19:25",
-   "red": "instagram",
-   "nombre": "PriorityChef Large 15oz Potato Ricer",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "19:45",
-   "red": "facebook",
-   "nombre": "Colorete NYX Buttermelt",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "19:55",
-   "red": "instagram",
-   "nombre": "Colorete NYX Buttermelt",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "20:15",
-   "red": "facebook",
-   "nombre": "Amazon Basics Lightweight Super Soft Breathab",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "20:25",
@@ -85,6 +55,41 @@
    "red": "instagram",
    "nombre": "Albornoz de mujer con cuello chal (gris acero",
    "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "22:25",
+   "red": "instagram",
+   "nombre": "ANRABESS Women Long Sleeve Shirts Ribbed Fitt",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "23:15",
+   "red": "facebook",
+   "nombre": "OEAK Womens Jelly Bras Wireless Deep V Bralet",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "23:25",
+   "red": "instagram",
+   "nombre": "OEAK Womens Jelly Bras Wireless Deep V Bralet",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "08:30",
+   "red": "facebook",
+   "nombre": "Mochila de cabina para Ryanair 40x30x20",
+   "estado": "pendiente"
   }
  ],
  "ultimos": [
