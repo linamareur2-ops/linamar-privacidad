@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-26 18:26",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-26 18:34",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 30,
-  "instagram": 29
+  "facebook": 33,
+  "instagram": 33
  },
- "en_cola": 21,
- "pendientes_aprobar": 0,
+ "en_cola": 54,
+ "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -94,44 +89,44 @@
  ],
  "ultimos": [
   {
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Calcetines térmicos de pelo (5 pares)"
-  },
-  {
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
-  },
-  {
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
-  },
-  {
-   "hora": "15:15",
-   "red": "facebook",
-   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
-  },
-  {
-   "hora": "15:25",
-   "red": "instagram",
-   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
-  },
-  {
-   "hora": "15:45",
-   "red": "facebook",
-   "nombre": "Zapatillas de casa RockDove (morado)"
-  },
-  {
-   "hora": "15:55",
-   "red": "instagram",
-   "nombre": "Zapatillas de casa RockDove (morado)"
-  },
-  {
    "hora": "16:15",
    "red": "facebook",
    "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
+  },
+  {
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
+  },
+  {
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "HydroJug Polka Dot Traveler"
+  },
+  {
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "HydroJug Polka Dot Traveler"
+  },
+  {
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Jersey navideño de mujer con estrellas"
+  },
+  {
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Jersey navideño de mujer con estrellas"
+  },
+  {
+   "hora": "18:15",
+   "red": "facebook",
+   "nombre": "Yankee Candle Balsam & Cedar"
+  },
+  {
+   "hora": "18:25",
+   "red": "instagram",
+   "nombre": "Yankee Candle Balsam & Cedar"
   }
  ]
 }
