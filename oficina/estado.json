@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-26 12:17",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-26 13:21",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 24,
   "instagram": 24
@@ -16,20 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-26",
-   "hora": "12:30",
-   "red": "facebook",
-   "nombre": "Red de secado para jerséis Leifheit",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-26",
-   "hora": "12:40",
-   "red": "instagram",
-   "nombre": "Red de secado para jerséis Leifheit",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-26",
    "hora": "13:30",
@@ -84,6 +75,20 @@
    "hora": "15:55",
    "red": "instagram",
    "nombre": "Zapatillas de casa RockDove (morado)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "16:15",
+   "red": "facebook",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-26",
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
    "estado": "aprobado"
   }
  ],
