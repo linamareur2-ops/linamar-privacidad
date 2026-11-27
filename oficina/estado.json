@@ -1,14 +1,12 @@
 {
  "actualizado": "2026-11-27 08:50",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
- "publicados_hoy": {},
- "en_cola": 40,
+ "trabajando": [],
+ "accion": "Turno terminado",
+ "publicados_hoy": {
+  "facebook": 1,
+  "instagram": 1
+ },
+ "en_cola": 38,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -89,5 +87,16 @@
    "estado": "aprobado"
   }
  ],
- "ultimos": []
+ "ultimos": [
+  {
+   "hora": "08:30",
+   "red": "facebook",
+   "nombre": "Mochila de cabina para Ryanair 40x30x20"
+  },
+  {
+   "hora": "08:40",
+   "red": "instagram",
+   "nombre": "Mochila de cabina para Ryanair 40x30x20"
+  }
+ ]
 }
