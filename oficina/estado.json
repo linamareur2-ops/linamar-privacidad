@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-27 20:23",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-27 21:19",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 16,
   "instagram": 15
@@ -16,20 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-27",
-   "hora": "20:25",
-   "red": "instagram",
-   "nombre": "eos Vanilla Cashmere body lotion",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-27",
-   "hora": "21:15",
-   "red": "facebook",
-   "nombre": "Owala FreeSip Stainless Steel Water Bottle 24",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-27",
    "hora": "21:25",
@@ -84,6 +75,20 @@
    "hora": "08:30",
    "red": "facebook",
    "nombre": "La Roche-Posay Cicaplast Baume B5+",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "08:40",
+   "red": "instagram",
+   "nombre": "La Roche-Posay Cicaplast Baume B5+",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "09:30",
+   "red": "facebook",
+   "nombre": "Organizador de bolso Tous Lindsay",
    "estado": "pendiente"
   }
  ],
