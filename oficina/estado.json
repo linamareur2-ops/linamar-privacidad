@@ -1,19 +1,14 @@
 {
- "actualizado": "2026-11-27 17:26",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-27 17:27",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 10,
-  "instagram": 9
+  "facebook": 11,
+  "instagram": 10
  },
- "en_cola": 21,
+ "en_cola": 18,
  "pendientes_aprobar": 0,
- "errores_hoy": 0,
+ "errores_hoy": 1,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -94,16 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Rasqueta de silicona para mampara con soporte"
-  },
-  {
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "Gokeey Gold Bracelets Set for Women Non Tarni"
-  },
-  {
    "hora": "14:25",
    "red": "instagram",
    "nombre": "Gokeey Gold Bracelets Set for Women Non Tarni"
@@ -132,6 +117,16 @@
    "hora": "16:15",
    "red": "facebook",
    "nombre": "Anua PDRN hyaluronic cream"
+  },
+  {
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "Anua PDRN hyaluronic cream"
+  },
+  {
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "Levi's Women's 318 Shaping Wide-Leg Jeans"
   }
  ]
 }
