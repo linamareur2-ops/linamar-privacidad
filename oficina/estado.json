@@ -1,19 +1,14 @@
 {
  "actualizado": "2026-11-27 10:34",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 1,
+  "facebook": 3,
   "instagram": 1
  },
- "en_cola": 38,
+ "en_cola": 35,
  "pendientes_aprobar": 0,
- "errores_hoy": 0,
+ "errores_hoy": 1,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -102,6 +97,16 @@
    "hora": "08:40",
    "red": "instagram",
    "nombre": "Mochila de cabina para Ryanair 40x30x20"
+  },
+  {
+   "hora": "09:30",
+   "red": "facebook",
+   "nombre": "Botellas pulverizadoras 500 ml (3 uds)"
+  },
+  {
+   "hora": "10:30",
+   "red": "facebook",
+   "nombre": "Organizador colgante para armario SONGMICS (2"
   }
  ]
 }
