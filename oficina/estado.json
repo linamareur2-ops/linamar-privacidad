@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-27 22:18",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-27 22:39",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 17,
-  "instagram": 16
+  "facebook": 19,
+  "instagram": 18
  },
- "en_cola": 47,
+ "en_cola": 43,
  "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
@@ -21,13 +16,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-27",
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "EVERSWE Women's 80 Den Soft Opaque Tights",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-27",
    "hora": "23:15",
@@ -90,29 +78,16 @@
    "red": "facebook",
    "nombre": "Pendientes SINGULARU Samba baño oro",
    "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Pendientes SINGULARU Samba baño oro",
+   "estado": "pendiente"
   }
  ],
  "ultimos": [
-  {
-   "hora": "18:25",
-   "red": "instagram",
-   "nombre": "Queen Size 4 Piece Sheet Set"
-  },
-  {
-   "hora": "19:15",
-   "red": "facebook",
-   "nombre": "Trendy Queen Women's 2 Piece 2026 Fall Fashio"
-  },
-  {
-   "hora": "19:25",
-   "red": "instagram",
-   "nombre": "Trendy Queen Women's 2 Piece 2026 Fall Fashio"
-  },
-  {
-   "hora": "19:45",
-   "red": "facebook",
-   "nombre": "Recipientes de vidrio herméticos KICHLY (9 ud"
-  },
   {
    "hora": "19:55",
    "red": "instagram",
@@ -132,6 +107,26 @@
    "hora": "21:15",
    "red": "facebook",
    "nombre": "Owala FreeSip Stainless Steel Water Bottle 24"
+  },
+  {
+   "hora": "21:25",
+   "red": "instagram",
+   "nombre": "Owala FreeSip Stainless Steel Water Bottle 24"
+  },
+  {
+   "hora": "21:45",
+   "red": "facebook",
+   "nombre": "Pizarra magnética para la nevera (menú semana"
+  },
+  {
+   "hora": "21:55",
+   "red": "instagram",
+   "nombre": "Pizarra magnética para la nevera (menú semana"
+  },
+  {
+   "hora": "22:15",
+   "red": "facebook",
+   "nombre": "EVERSWE Women's 80 Den Soft Opaque Tights"
   }
  ]
 }
