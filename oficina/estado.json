@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-27 12:15",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-27 13:18",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 4,
   "instagram": 4
@@ -16,20 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-27",
-   "hora": "12:30",
-   "red": "facebook",
-   "nombre": "Cajas para zapatos apilables SONGMICS (12 uds",
-   "estado": "aprobado"
-  },
-  {
-   "fecha": "2026-11-27",
-   "hora": "12:40",
-   "red": "instagram",
-   "nombre": "Cajas para zapatos apilables SONGMICS (12 uds",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-27",
    "hora": "13:30",
@@ -84,6 +75,20 @@
    "hora": "15:55",
    "red": "instagram",
    "nombre": "Burlete autoadhesivo para puertas (blanco)",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "16:15",
+   "red": "facebook",
+   "nombre": "Anua PDRN hyaluronic cream",
+   "estado": "aprobado"
+  },
+  {
+   "fecha": "2026-11-27",
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "Anua PDRN hyaluronic cream",
    "estado": "aprobado"
   }
  ],
