@@ -1,19 +1,14 @@
 {
- "actualizado": "2026-11-27 12:14",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-27 12:15",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 3,
-  "instagram": 1
+  "facebook": 4,
+  "instagram": 4
  },
- "en_cola": 35,
+ "en_cola": 32,
  "pendientes_aprobar": 0,
- "errores_hoy": 1,
+ "errores_hoy": 0,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -109,9 +104,29 @@
    "nombre": "Botellas pulverizadoras 500 ml (3 uds)"
   },
   {
+   "hora": "09:40",
+   "red": "instagram",
+   "nombre": "Botellas pulverizadoras 500 ml (3 uds)"
+  },
+  {
    "hora": "10:30",
    "red": "facebook",
    "nombre": "Organizador colgante para armario SONGMICS (2"
+  },
+  {
+   "hora": "10:40",
+   "red": "instagram",
+   "nombre": "Organizador colgante para armario SONGMICS (2"
+  },
+  {
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Velas LED de té (24 uds, blanco cálido)"
+  },
+  {
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Velas LED de té (24 uds, blanco cálido)"
   }
  ]
 }
