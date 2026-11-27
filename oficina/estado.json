@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-27 21:19",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-27 21:20",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 16,
-  "instagram": 15
+  "facebook": 17,
+  "instagram": 16
  },
- "en_cola": 49,
+ "en_cola": 47,
  "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
@@ -94,16 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "17:55",
-   "red": "instagram",
-   "nombre": "Báscula de cocina digital 20 kg"
-  },
-  {
-   "hora": "18:15",
-   "red": "facebook",
-   "nombre": "Queen Size 4 Piece Sheet Set"
-  },
-  {
    "hora": "18:25",
    "red": "instagram",
    "nombre": "Queen Size 4 Piece Sheet Set"
@@ -132,6 +117,16 @@
    "hora": "20:15",
    "red": "facebook",
    "nombre": "eos Vanilla Cashmere body lotion"
+  },
+  {
+   "hora": "20:25",
+   "red": "instagram",
+   "nombre": "eos Vanilla Cashmere body lotion"
+  },
+  {
+   "hora": "21:15",
+   "red": "facebook",
+   "nombre": "Owala FreeSip Stainless Steel Water Bottle 24"
   }
  ]
 }
