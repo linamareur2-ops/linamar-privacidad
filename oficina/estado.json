@@ -1,17 +1,12 @@
 {
- "actualizado": "2026-11-27 14:41",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-27 14:42",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 5,
-  "instagram": 5
+  "facebook": 7,
+  "instagram": 7
  },
- "en_cola": 30,
+ "en_cola": 26,
  "pendientes_aprobar": 0,
  "errores_hoy": 0,
  "redes": {
@@ -94,26 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "09:30",
-   "red": "facebook",
-   "nombre": "Botellas pulverizadoras 500 ml (3 uds)"
-  },
-  {
-   "hora": "09:40",
-   "red": "instagram",
-   "nombre": "Botellas pulverizadoras 500 ml (3 uds)"
-  },
-  {
-   "hora": "10:30",
-   "red": "facebook",
-   "nombre": "Organizador colgante para armario SONGMICS (2"
-  },
-  {
-   "hora": "10:40",
-   "red": "instagram",
-   "nombre": "Organizador colgante para armario SONGMICS (2"
-  },
-  {
    "hora": "11:30",
    "red": "facebook",
    "nombre": "Velas LED de té (24 uds, blanco cálido)"
@@ -132,6 +107,26 @@
    "hora": "12:40",
    "red": "instagram",
    "nombre": "Cajas para zapatos apilables SONGMICS (12 uds"
+  },
+  {
+   "hora": "13:30",
+   "red": "facebook",
+   "nombre": "Rasqueta de silicona para mampara con soporte"
+  },
+  {
+   "hora": "13:40",
+   "red": "instagram",
+   "nombre": "Rasqueta de silicona para mampara con soporte"
+  },
+  {
+   "hora": "14:15",
+   "red": "facebook",
+   "nombre": "Gokeey Gold Bracelets Set for Women Non Tarni"
+  },
+  {
+   "hora": "14:25",
+   "red": "instagram",
+   "nombre": "Gokeey Gold Bracelets Set for Women Non Tarni"
   }
  ]
 }
