@@ -1,12 +1,14 @@
 {
- "actualizado": "2026-11-27 23:17",
- "trabajando": [],
- "accion": "Turno terminado",
- "publicados_hoy": {
-  "facebook": 20,
-  "instagram": 19
- },
- "en_cola": 41,
+ "actualizado": "2026-11-28 00:15",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "publicados_hoy": {},
+ "en_cola": 40,
  "pendientes_aprobar": 40,
  "errores_hoy": 0,
  "redes": {
@@ -16,13 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-27",
-   "hora": "23:25",
-   "red": "instagram",
-   "nombre": "Trendy Queen Womens Long Sleeve T Shirts Fall",
-   "estado": "aprobado"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "08:30",
@@ -85,48 +80,14 @@
    "red": "facebook",
    "nombre": "Crema medicube Capsule PDRN",
    "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "12:40",
+   "red": "instagram",
+   "nombre": "Crema medicube Capsule PDRN",
+   "estado": "pendiente"
   }
  ],
- "ultimos": [
-  {
-   "hora": "20:25",
-   "red": "instagram",
-   "nombre": "eos Vanilla Cashmere body lotion"
-  },
-  {
-   "hora": "21:15",
-   "red": "facebook",
-   "nombre": "Owala FreeSip Stainless Steel Water Bottle 24"
-  },
-  {
-   "hora": "21:25",
-   "red": "instagram",
-   "nombre": "Owala FreeSip Stainless Steel Water Bottle 24"
-  },
-  {
-   "hora": "21:45",
-   "red": "facebook",
-   "nombre": "Pizarra magnética para la nevera (menú semana"
-  },
-  {
-   "hora": "21:55",
-   "red": "instagram",
-   "nombre": "Pizarra magnética para la nevera (menú semana"
-  },
-  {
-   "hora": "22:15",
-   "red": "facebook",
-   "nombre": "EVERSWE Women's 80 Den Soft Opaque Tights"
-  },
-  {
-   "hora": "22:25",
-   "red": "instagram",
-   "nombre": "EVERSWE Women's 80 Den Soft Opaque Tights"
-  },
-  {
-   "hora": "23:15",
-   "red": "facebook",
-   "nombre": "Trendy Queen Womens Long Sleeve T Shirts Fall"
-  }
- ]
+ "ultimos": []
 }
