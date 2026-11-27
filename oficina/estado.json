@@ -1,19 +1,14 @@
 {
- "actualizado": "2026-11-27 19:08",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-27 19:14",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 11,
-  "instagram": 10
+  "facebook": 13,
+  "instagram": 13
  },
- "en_cola": 18,
- "pendientes_aprobar": 0,
- "errores_hoy": 1,
+ "en_cola": 54,
+ "pendientes_aprobar": 40,
+ "errores_hoy": 0,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -94,31 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "Gokeey Gold Bracelets Set for Women Non Tarni"
-  },
-  {
-   "hora": "15:15",
-   "red": "facebook",
-   "nombre": "PAVOI 14K Gold Plated 3mm Cubic Zirconia Clas"
-  },
-  {
-   "hora": "15:25",
-   "red": "instagram",
-   "nombre": "PAVOI 14K Gold Plated 3mm Cubic Zirconia Clas"
-  },
-  {
-   "hora": "15:45",
-   "red": "facebook",
-   "nombre": "Burlete autoadhesivo para puertas (blanco)"
-  },
-  {
-   "hora": "15:55",
-   "red": "instagram",
-   "nombre": "Burlete autoadhesivo para puertas (blanco)"
-  },
-  {
    "hora": "16:15",
    "red": "facebook",
    "nombre": "Anua PDRN hyaluronic cream"
@@ -132,6 +102,31 @@
    "hora": "17:15",
    "red": "facebook",
    "nombre": "Levi's Women's 318 Shaping Wide-Leg Jeans"
+  },
+  {
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "Levi's Women's 318 Shaping Wide-Leg Jeans"
+  },
+  {
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Báscula de cocina digital 20 kg"
+  },
+  {
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Báscula de cocina digital 20 kg"
+  },
+  {
+   "hora": "18:15",
+   "red": "facebook",
+   "nombre": "Queen Size 4 Piece Sheet Set"
+  },
+  {
+   "hora": "18:25",
+   "red": "instagram",
+   "nombre": "Queen Size 4 Piece Sheet Set"
   }
  ]
 }
