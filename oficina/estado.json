@@ -1,19 +1,14 @@
 {
- "actualizado": "2026-11-28 18:10",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-28 18:13",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 10,
-  "instagram": 10
+  "facebook": 12,
+  "instagram": 11
  },
- "en_cola": 20,
- "pendientes_aprobar": 20,
- "errores_hoy": 0,
+ "en_cola": 56,
+ "pendientes_aprobar": 56,
+ "errores_hoy": 1,
  "redes": {
   "facebook": true,
   "instagram": true,
@@ -94,21 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl"
-  },
-  {
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl"
-  },
-  {
-   "hora": "15:15",
-   "red": "facebook",
-   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
-  },
-  {
    "hora": "15:25",
    "red": "instagram",
    "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
@@ -132,6 +112,21 @@
    "hora": "16:25",
    "red": "instagram",
    "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
+  },
+  {
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy"
+  },
+  {
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Etiquetas para congelador (rollo)"
+  },
+  {
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Etiquetas para congelador (rollo)"
   }
  ]
 }
