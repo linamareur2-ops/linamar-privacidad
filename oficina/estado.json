@@ -1,17 +1,13 @@
 {
- "actualizado": "2026-11-28 10:12",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-28 10:13",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 1
+  "facebook": 2,
+  "instagram": 2
  },
- "en_cola": 39,
- "pendientes_aprobar": 39,
+ "en_cola": 36,
+ "pendientes_aprobar": 36,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -96,6 +92,21 @@
    "hora": "08:30",
    "red": "facebook",
    "nombre": "La Roche-Posay Cicaplast Baume B5+"
+  },
+  {
+   "hora": "08:40",
+   "red": "instagram",
+   "nombre": "La Roche-Posay Cicaplast Baume B5+"
+  },
+  {
+   "hora": "09:30",
+   "red": "facebook",
+   "nombre": "Organizador de bolso Tous Lindsay"
+  },
+  {
+   "hora": "09:40",
+   "red": "instagram",
+   "nombre": "Organizador de bolso Tous Lindsay"
   }
  ]
 }
