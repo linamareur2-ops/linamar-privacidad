@@ -1,7 +1,9 @@
 {
- "actualizado": "2026-11-28 09:24",
- "trabajando": [],
- "accion": "Estudio de mercado terminado",
+ "actualizado": "2026-11-28 09:47",
+ "trabajando": [
+  "mer"
+ ],
+ "accion": "Estudio de mercado: recorriendo Amazon España y EE. UU.",
  "publicados_hoy": {
   "facebook": 1
  },
@@ -15,20 +17,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-28",
-   "hora": "09:30",
-   "red": "facebook",
-   "nombre": "Organizador de bolso Tous Lindsay",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "09:40",
-   "red": "instagram",
-   "nombre": "Organizador de bolso Tous Lindsay",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "10:30",
@@ -83,6 +71,20 @@
    "hora": "13:40",
    "red": "instagram",
    "nombre": "Parches de ojos BIODANCE con colágeno",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "14:15",
+   "red": "facebook",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "14:25",
+   "red": "instagram",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl",
    "estado": "pendiente"
   }
  ],
