@@ -1,18 +1,13 @@
 {
  "actualizado": "2026-11-28 11:12",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 2,
-  "instagram": 2
+  "facebook": 3,
+  "instagram": 3
  },
- "en_cola": 36,
- "pendientes_aprobar": 36,
+ "en_cola": 34,
+ "pendientes_aprobar": 34,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -112,6 +107,16 @@
    "hora": "09:40",
    "red": "instagram",
    "nombre": "Organizador de bolso Tous Lindsay"
+  },
+  {
+   "hora": "10:30",
+   "red": "facebook",
+   "nombre": "Cámara DJI Osmo Pocket 3"
+  },
+  {
+   "hora": "10:40",
+   "red": "instagram",
+   "nombre": "Cámara DJI Osmo Pocket 3"
   }
  ]
 }
