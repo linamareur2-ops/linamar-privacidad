@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-28 14:26",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-28 14:27",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 5,
-  "instagram": 5
+  "facebook": 7,
+  "instagram": 7
  },
- "en_cola": 30,
- "pendientes_aprobar": 30,
+ "en_cola": 26,
+ "pendientes_aprobar": 26,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -94,26 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "09:30",
-   "red": "facebook",
-   "nombre": "Organizador de bolso Tous Lindsay"
-  },
-  {
-   "hora": "09:40",
-   "red": "instagram",
-   "nombre": "Organizador de bolso Tous Lindsay"
-  },
-  {
-   "hora": "10:30",
-   "red": "facebook",
-   "nombre": "Cámara DJI Osmo Pocket 3"
-  },
-  {
-   "hora": "10:40",
-   "red": "instagram",
-   "nombre": "Cámara DJI Osmo Pocket 3"
-  },
-  {
    "hora": "11:30",
    "red": "facebook",
    "nombre": "Pendientes SINGULARU Samba baño oro"
@@ -132,6 +107,26 @@
    "hora": "12:40",
    "red": "instagram",
    "nombre": "Crema medicube Capsule PDRN"
+  },
+  {
+   "hora": "13:30",
+   "red": "facebook",
+   "nombre": "Parches de ojos BIODANCE con colágeno"
+  },
+  {
+   "hora": "13:40",
+   "red": "instagram",
+   "nombre": "Parches de ojos BIODANCE con colágeno"
+  },
+  {
+   "hora": "14:15",
+   "red": "facebook",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl"
+  },
+  {
+   "hora": "14:25",
+   "red": "instagram",
+   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl"
   }
  ]
 }
