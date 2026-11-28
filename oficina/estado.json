@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-28 16:08",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-28 17:08",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 9,
   "instagram": 9
@@ -16,20 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-28",
-   "hora": "16:15",
-   "red": "facebook",
-   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo ",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "16:25",
-   "red": "instagram",
-   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo ",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "17:15",
@@ -84,6 +75,20 @@
    "hora": "19:25",
    "red": "instagram",
    "nombre": "Kendra Scott Starstruck Elisa necklace",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "19:45",
+   "red": "facebook",
+   "nombre": "Zuecos Crocs forrados peluditos",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "19:55",
+   "red": "instagram",
+   "nombre": "Zuecos Crocs forrados peluditos",
    "estado": "pendiente"
   }
  ],
