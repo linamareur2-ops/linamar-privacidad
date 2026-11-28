@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-28 11:12",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-28 12:10",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 3,
   "instagram": 3
@@ -16,20 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-28",
-   "hora": "11:30",
-   "red": "facebook",
-   "nombre": "Pendientes SINGULARU Samba baño oro",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "11:40",
-   "red": "instagram",
-   "nombre": "Pendientes SINGULARU Samba baño oro",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "12:30",
@@ -84,6 +75,20 @@
    "hora": "15:25",
    "red": "instagram",
    "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "15:45",
+   "red": "facebook",
+   "nombre": "Apple Watch SE 3 blanco estrella",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "15:55",
+   "red": "instagram",
+   "nombre": "Apple Watch SE 3 blanco estrella",
    "estado": "pendiente"
   }
  ],
