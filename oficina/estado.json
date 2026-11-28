@@ -1,18 +1,13 @@
 {
  "actualizado": "2026-11-28 13:06",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 4,
-  "instagram": 4
+  "facebook": 5,
+  "instagram": 5
  },
- "en_cola": 32,
- "pendientes_aprobar": 32,
+ "en_cola": 30,
+ "pendientes_aprobar": 30,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -94,16 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "08:30",
-   "red": "facebook",
-   "nombre": "La Roche-Posay Cicaplast Baume B5+"
-  },
-  {
-   "hora": "08:40",
-   "red": "instagram",
-   "nombre": "La Roche-Posay Cicaplast Baume B5+"
-  },
-  {
    "hora": "09:30",
    "red": "facebook",
    "nombre": "Organizador de bolso Tous Lindsay"
@@ -132,6 +117,16 @@
    "hora": "11:40",
    "red": "instagram",
    "nombre": "Pendientes SINGULARU Samba baño oro"
+  },
+  {
+   "hora": "12:30",
+   "red": "facebook",
+   "nombre": "Crema medicube Capsule PDRN"
+  },
+  {
+   "hora": "12:40",
+   "red": "instagram",
+   "nombre": "Crema medicube Capsule PDRN"
   }
  ]
 }
