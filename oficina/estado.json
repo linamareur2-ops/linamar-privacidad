@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-28 06:24",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-28 08:39",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {},
  "en_cola": 40,
  "pendientes_aprobar": 40,
@@ -13,13 +18,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-28",
-   "hora": "08:30",
-   "red": "facebook",
-   "nombre": "La Roche-Posay Cicaplast Baume B5+",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "08:40",
@@ -81,6 +79,13 @@
    "hora": "12:40",
    "red": "instagram",
    "nombre": "Crema medicube Capsule PDRN",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "13:30",
+   "red": "facebook",
+   "nombre": "Parches de ojos BIODANCE con colágeno",
    "estado": "pendiente"
   }
  ],
