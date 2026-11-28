@@ -1,7 +1,9 @@
 {
- "actualizado": "2026-11-28 08:39",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-28 09:14",
+ "trabajando": [
+  "mer"
+ ],
+ "accion": "Estudio de mercado: recorriendo Amazon España y EE. UU.",
  "publicados_hoy": {
   "facebook": 1
  },
@@ -15,13 +17,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-28",
-   "hora": "08:40",
-   "red": "instagram",
-   "nombre": "La Roche-Posay Cicaplast Baume B5+",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "09:30",
@@ -82,6 +77,13 @@
    "fecha": "2026-11-28",
    "hora": "13:30",
    "red": "facebook",
+   "nombre": "Parches de ojos BIODANCE con colágeno",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "13:40",
+   "red": "instagram",
    "nombre": "Parches de ojos BIODANCE con colágeno",
    "estado": "pendiente"
   }
