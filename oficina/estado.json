@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-28 16:07",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-28 16:08",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 7,
-  "instagram": 7
+  "facebook": 9,
+  "instagram": 9
  },
- "en_cola": 26,
- "pendientes_aprobar": 26,
+ "en_cola": 22,
+ "pendientes_aprobar": 22,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -94,26 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "11:30",
-   "red": "facebook",
-   "nombre": "Pendientes SINGULARU Samba baño oro"
-  },
-  {
-   "hora": "11:40",
-   "red": "instagram",
-   "nombre": "Pendientes SINGULARU Samba baño oro"
-  },
-  {
-   "hora": "12:30",
-   "red": "facebook",
-   "nombre": "Crema medicube Capsule PDRN"
-  },
-  {
-   "hora": "12:40",
-   "red": "instagram",
-   "nombre": "Crema medicube Capsule PDRN"
-  },
-  {
    "hora": "13:30",
    "red": "facebook",
    "nombre": "Parches de ojos BIODANCE con colágeno"
@@ -132,6 +107,26 @@
    "hora": "14:25",
    "red": "instagram",
    "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl"
+  },
+  {
+   "hora": "15:15",
+   "red": "facebook",
+   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
+  },
+  {
+   "hora": "15:25",
+   "red": "instagram",
+   "nombre": "Totatuit Women's Long Sleeve Zip Up Ribbed Kn"
+  },
+  {
+   "hora": "15:45",
+   "red": "facebook",
+   "nombre": "Apple Watch SE 3 blanco estrella"
+  },
+  {
+   "hora": "15:55",
+   "red": "instagram",
+   "nombre": "Apple Watch SE 3 blanco estrella"
   }
  ]
 }
