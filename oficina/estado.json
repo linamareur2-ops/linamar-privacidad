@@ -1,18 +1,13 @@
 {
- "actualizado": "2026-11-28 17:08",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "actualizado": "2026-11-28 17:09",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 9,
-  "instagram": 9
+  "facebook": 10,
+  "instagram": 10
  },
- "en_cola": 22,
- "pendientes_aprobar": 22,
+ "en_cola": 20,
+ "pendientes_aprobar": 20,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -94,16 +89,6 @@
  ],
  "ultimos": [
   {
-   "hora": "13:30",
-   "red": "facebook",
-   "nombre": "Parches de ojos BIODANCE con colágeno"
-  },
-  {
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Parches de ojos BIODANCE con colágeno"
-  },
-  {
    "hora": "14:15",
    "red": "facebook",
    "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl"
@@ -132,6 +117,16 @@
    "hora": "15:55",
    "red": "instagram",
    "nombre": "Apple Watch SE 3 blanco estrella"
+  },
+  {
+   "hora": "16:15",
+   "red": "facebook",
+   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
+  },
+  {
+   "hora": "16:25",
+   "red": "instagram",
+   "nombre": "ANRABESS Women's Short Sleeve Oversized Polo "
   }
  ]
 }
