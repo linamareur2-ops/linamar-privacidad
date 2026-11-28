@@ -1,18 +1,13 @@
 {
  "actualizado": "2026-11-28 12:10",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
+ "trabajando": [],
+ "accion": "Turno terminado",
  "publicados_hoy": {
-  "facebook": 3,
-  "instagram": 3
+  "facebook": 4,
+  "instagram": 4
  },
- "en_cola": 34,
- "pendientes_aprobar": 34,
+ "en_cola": 32,
+ "pendientes_aprobar": 32,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -122,6 +117,16 @@
    "hora": "10:40",
    "red": "instagram",
    "nombre": "Cámara DJI Osmo Pocket 3"
+  },
+  {
+   "hora": "11:30",
+   "red": "facebook",
+   "nombre": "Pendientes SINGULARU Samba baño oro"
+  },
+  {
+   "hora": "11:40",
+   "red": "instagram",
+   "nombre": "Pendientes SINGULARU Samba baño oro"
   }
  ]
 }
