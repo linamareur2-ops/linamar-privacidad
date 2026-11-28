@@ -1,15 +1,12 @@
 {
  "actualizado": "2026-11-28 08:39",
- "trabajando": [
-  "sec",
-  "pub",
-  "mkt",
-  "dis"
- ],
- "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
- "publicados_hoy": {},
- "en_cola": 40,
- "pendientes_aprobar": 40,
+ "trabajando": [],
+ "accion": "Turno terminado",
+ "publicados_hoy": {
+  "facebook": 1
+ },
+ "en_cola": 39,
+ "pendientes_aprobar": 39,
  "errores_hoy": 0,
  "redes": {
   "facebook": true,
@@ -89,5 +86,11 @@
    "estado": "pendiente"
   }
  ],
- "ultimos": []
+ "ultimos": [
+  {
+   "hora": "08:30",
+   "red": "facebook",
+   "nombre": "La Roche-Posay Cicaplast Baume B5+"
+  }
+ ]
 }
