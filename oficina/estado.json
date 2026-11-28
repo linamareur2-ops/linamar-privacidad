@@ -1,7 +1,12 @@
 {
- "actualizado": "2026-11-28 13:06",
- "trabajando": [],
- "accion": "Turno terminado",
+ "actualizado": "2026-11-28 14:26",
+ "trabajando": [
+  "sec",
+  "pub",
+  "mkt",
+  "dis"
+ ],
+ "accion": "Turno de trabajo: leyendo Telegram, planificando y publicando",
  "publicados_hoy": {
   "facebook": 5,
   "instagram": 5
@@ -16,34 +21,6 @@
   "pinterest_us": false
  },
  "proximos": [
-  {
-   "fecha": "2026-11-28",
-   "hora": "13:30",
-   "red": "facebook",
-   "nombre": "Parches de ojos BIODANCE con colágeno",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "13:40",
-   "red": "instagram",
-   "nombre": "Parches de ojos BIODANCE con colágeno",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "14:15",
-   "red": "facebook",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "14:25",
-   "red": "instagram",
-   "nombre": "PRETTYGARDEN Women's 2 Piece Outfits Short Sl",
-   "estado": "pendiente"
-  },
   {
    "fecha": "2026-11-28",
    "hora": "15:15",
@@ -84,6 +61,34 @@
    "hora": "16:25",
    "red": "instagram",
    "nombre": "ANRABESS Women's Short Sleeve Oversized Polo ",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "17:15",
+   "red": "facebook",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "17:25",
+   "red": "instagram",
+   "nombre": "SEMARO Women's High Waisted Wide Leg Stretchy",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "17:45",
+   "red": "facebook",
+   "nombre": "Etiquetas para congelador (rollo)",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-28",
+   "hora": "17:55",
+   "red": "instagram",
+   "nombre": "Etiquetas para congelador (rollo)",
    "estado": "pendiente"
   }
  ],
